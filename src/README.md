@@ -1,7 +1,7 @@
 ---
 home: true
 icon: home
-title: Project home
+title: 首页
 heroImage: /logo.svg
 heroText: 前端笔记
 tagline: 一个前端知识库

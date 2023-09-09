@@ -2,12 +2,21 @@ import { navbar } from 'vuepress-theme-hope';
 
 export const enNavbar = navbar([
   {
-    text: '框架',
+    text: '🔥 框架',
     children: [
       // 路径不要写成了 /framework/vue/watch/index，否则菜单不高亮
       { text: "Vue", link: "/framework/vue/watch/" },
       { text: "React", link: "/react/bind-this" },
       { text: "Angular", link: "/react/bind-this" },
+    ]
+  },
+  {
+    text: '组件库',
+    children: [
+      // 路径不要写成了 /framework/vue/watch/index，否则菜单不高亮
+      { text: "Element Plus", link: "/component-library/element-plus/wrap-dialog/" },
+      { text: "Arco Design", link: "/react/bind-this" },
+      { text: "Ant Design", link: "/react/bind-this" },
     ]
   },
   {
@@ -25,7 +34,7 @@ export const enNavbar = navbar([
   {
     text: '构建工具',
     children: [
-      { text: "Vite", link: "/framework/vue/watch/" },
+      { text: "Vite", link: "/build-tool/vite/config" },
       { text: "Rollup", link: "/react/bind-this" },
       { text: "Parcel", link: "/react/bind-this" },
       { text: "Webpack", link: "/react/bind-this" },
@@ -44,21 +53,23 @@ export const enNavbar = navbar([
     children: [
       {
         text: 'Node 端',
-        children: [
-          { text: "Express", link: "/framework/vue/watch/" },
-          { text: "Koa", link: "/react/bind-this" },
-          { text: "Chalk", link: "/react/bind-this" },
-        ]
+        link: ''
+        // children: [
+        //   { text: "Express", link: "/framework/vue/watch/" },
+        //   { text: "Koa", link: "/react/bind-this" },
+        //   { text: "Chalk", link: "/react/bind-this" },
+        // ]
       },
       {
         text: '浏览器端',
-        children: [
-          { text: "Echarts", link: "/framework/vue/watch/" },
-          { text: "Axios", link: "/react/bind-this" },
-          { text: "Monaco Editor", link: "/react/bind-this" },
-          { text: "Lodash", link: "/react/bind-this" },
-          { text: "Vue-flow", link: "/react/bind-this" },
-        ]
+        link: '/dependency/browser/vxe-table/install'
+        // children: [
+        //   { text: "Echarts", link: "/framework/vue/watch/" },
+        //   { text: "Axios", link: "/react/bind-this" },
+        //   { text: "Monaco Editor", link: "/react/bind-this" },
+        //   { text: "Lodash", link: "/react/bind-this" },
+        //   { text: "Vue-flow", link: "/react/bind-this" },
+        // ]
       }
     ]
   },
