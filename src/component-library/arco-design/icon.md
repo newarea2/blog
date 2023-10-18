@@ -44,7 +44,3 @@ app.mount('#app');
   const icons = ['IconPlus', 'IconMinus', 'IconFullscreenExit']
 </script>
 ```
-
-- 将想要拖拽的元素的 `{{htmlattrxref("draggable")}}` 属性设置成 `{{htmlattrxref("draggable")}}="true"`。
-- 为 [dragstart](/zh-CN/docs/Web/API/HTMLElement/dragstart_event) 事件添加一个监听程序。
-- 在上一步定义的监听程序中 {{domxref("DataTransfer.setData","设置拖拽数据")}}。
