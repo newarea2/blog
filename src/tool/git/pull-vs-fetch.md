@@ -1,6 +1,6 @@
 # git pull 和 git fetch 的区别
 
-![05](/images/20230809/05.png)
+![05](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230809/05.png)
 
 `git fetch` 是将远程主机的最新内容拉到本地，用户在检查了以后决定是否合并到工作本机分支中。
 

@@ -9,7 +9,7 @@
 - ::-webkit-scrollbar-thumb  滑块部分；
 - ::-webkit-scrollbar-button  两端按钮；
 
-![06](/images/20230725/06.png)
+![06](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230725/06.png)
 
 例子1：
 
@@ -31,9 +31,9 @@
 }
 ```
 
-![07](/images/20230725/07.png)
+![07](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230725/07.png)
 
-![08](/images/20230725/08.png)
+![08](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230725/08.png)
 
 例子2：
 
@@ -55,9 +55,9 @@
 }
 ```
 
-![09](/images/20230725/09.png)
+![09](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230725/09.png)
 
-![10](/images/20230725/10.png)
+![10](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230725/10.png)
 
 
 例子3：
@@ -89,7 +89,7 @@
 }
 ```
 
-![05](/images/20230725/05.png)
+![05](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230725/05.png)
 
 例子4：
 
@@ -115,4 +115,4 @@
 }
 ```
 
-![11](/images/20230725/11.png)
+![11](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230725/11.png)

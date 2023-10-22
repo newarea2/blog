@@ -47,7 +47,7 @@ var cat = new Cat('小白')
 
 {name: '小白'} ---> {eat: ..., constructor: ...} ---> {hasOwnProperty: ...} ---> null
 
-![01](/images/20230730/01.png)
+![01](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230730/01.png)
 
 例子三：
 

@@ -47,9 +47,9 @@ prefix = "C:\\Users\\zbxtqw\\AppData\\Roaming\\npm"
 
 位于 Node 安装目录下 node_modules 文件夹中，如果内置包提供了可执行脚本，这些脚本直接位于 Node 安装目录下。
 
-![](/images/20230719/22.png)
+![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/22.png)
 
-![](/images/20230719/23.png)
+![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/23.png)
 
 **全局包**
 

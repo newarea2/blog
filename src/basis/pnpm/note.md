@@ -16,17 +16,17 @@
 
 执行 `npm i express`，node_modules 下不仅安装了 express，还有很多其他依赖，如 qs，在项目中可以使用 qs `const qs = require('qs')`
 
-![02](/images/20230721/02.png)
+![02](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230721/02.png)
 
 **使用 pnpm 的项目：**
 
 执行 `npm i express`，node_modules 下仅安装了 express 和 mini-types 的软连接，如果像上面那样在项目中使用 qs `const qs = require('qs')`，提示未安装
 
-![01](/images/20230721/01.png)
+![01](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230721/01.png)
 
 执行 `node src/index.js` 会报错
 
-![03](/images/20230721/03.png)
+![03](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230721/03.png)
 
 ## 3 支持 monorepo
 

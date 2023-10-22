@@ -24,7 +24,7 @@ export default defineConfig({
 
 ## 1 两处都不设置
 
-![01](/images/20230424/01.png)
+![01](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230424/01.png)
 
 ### 1.1 开发环境
 
@@ -68,19 +68,19 @@ server {
 
 ## 2 vite 中设置 base
 
-![02](/images/20230424/02.png)
+![02](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230424/02.png)
 
 ### 2.1 开发环境
 
 点击按钮可以正常切换页面，但是不能刷新。
 
-![03](/images/20230424/03.png)
+![03](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230424/03.png)
 
 可以发现 index.html 中所需的相关资源文件自动被加上了一个前缀。
 
 刷新：
 
-![04](/images/20230424/04.png)
+![04](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230424/04.png)
 
 ### 2.2 生产环境
 
@@ -129,15 +129,15 @@ server {
 
 ## 3 路由设置 base
 
-![05](/images/20230424/05.png)
+![05](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230424/05.png)
 
 ### 3.1 开发环境
 
 点击按钮可以正常切换页面，刷新也正常。
 
-![06](/images/20230424/06.png)
+![06](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230424/06.png)
 
-![07](/images/20230424/07.png)
+![07](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230424/07.png)
 
 ### 3.2 生产环境
 
@@ -173,13 +173,13 @@ server {
 
 ## 4 两处都设置
 
-![08](/images/20230424/08.png)
+![08](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230424/08.png)
 
 ### 4.1 开发环境
 
 点击按钮可以正常切换页面，刷新也正常。
 
-![09](/images/20230424/09.png)
+![09](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230424/09.png)
 
 ### 4.2 生产环境
 
@@ -227,7 +227,7 @@ server {
 
 ## 5 两处都设置，base 不相同
 
-![10](/images/20230424/10.png)
+![10](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230424/10.png)
 
 ### 5.1 开发环境
 
@@ -235,9 +235,9 @@ server {
 
 localhost:3000 -> localhost:3000/a -> localhost:3000/b/a
 
-![11](/images/20230424/11.png)
+![11](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230424/11.png)
 
-![12](/images/20230424/12.png)
+![12](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230424/12.png)
 
 ### 5.2 生产环境
 

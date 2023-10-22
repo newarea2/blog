@@ -8,7 +8,7 @@ const execa = require('execa');
 });
 ```
 
-![01](/images/20230719/15.png)
+![01](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/15.png)
 
 ### API
 

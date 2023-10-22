@@ -31,7 +31,7 @@ console.log(helloWorld)
 
 如果将 `baseUrl` 设为 `../`，则 ex.ts 文件无法通过 `path.resolve('../', 'hello/world')` 正确解析出模块 `hello/world`，从而报错：
 
-![09](/images/20230713/09.png)
+![09](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230713/09.png)
 
 ## paths
 

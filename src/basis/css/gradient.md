@@ -6,4 +6,4 @@
 <div style="margin-top: 10px;background:linear-gradient(to left,rgba(0, 153, 204, 0),rgba(0, 153, 204, 1),rgba(0, 153, 204, 0));height:1px;"></div>
 ```
 
-![04](/images/20230725/04.png)
+![04](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230725/04.png)

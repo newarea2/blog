@@ -42,4 +42,4 @@ const newStr = str.replace(reg, function (match, p1, p2, p3) {
 
 打印如下
 
-![03](/images/20230804/03.png)
+![03](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230804/03.png)

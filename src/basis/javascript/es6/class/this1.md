@@ -20,7 +20,7 @@ const { printName } = logger
 printName() // Uncaught TypeError: Cannot read property 'print' of undefined
 ```
 
-![01](/images/20230803/01.png)
+![01](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230803/01.png)
 
 
 在构造函数中执行 `this.printName = this.printName.bind(this)`，使实例本身也具有 printName 方法，通过 bind 方法，实例本身的 printName 方法中的 this 被永久的绑定到 bind 方法的第一个参数（即实例本身），从而可以找到 print 方法。
@@ -46,4 +46,4 @@ const { printName } = logger
 printName() // Hello there
 ```
 
-![02](/images/20230803/02.png)
+![02](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230803/02.png)

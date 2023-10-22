@@ -66,6 +66,6 @@ CSS 属性 `color` 具有继承性。如果当前元素没有显式设置 `color
 </html>
 ```
 
-![12](/images/20230725/12.png)
+![12](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230725/12.png)
 
-![13](/images/20230725/13.png)
+![13](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230725/13.png)

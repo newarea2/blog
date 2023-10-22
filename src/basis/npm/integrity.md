@@ -8,7 +8,7 @@ npm info packageA@x.x.x
 
 如：
 
-![](/images/20230820/01.png)
+![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230820/01.png)
 
 其中几个属性的含义：
 

@@ -1,6 +1,6 @@
 # axios 拦截器
 
-![02](/images/20230723/02.png)
+![02](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230723/02.png)
 
 ## 1 拦截请求
 

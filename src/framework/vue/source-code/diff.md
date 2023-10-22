@@ -31,4 +31,4 @@ const vDom = h('div',
 console.log(vDom)
 ```
 
-![01](/images/20230525/01.png)
+![01](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230525/01.png)

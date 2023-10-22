@@ -18,15 +18,15 @@ Espree 只转换 js，且默认支持 ES5 的语法。
 
 使用 Parcel 创建一个 Espree demo
 
-![03](/images/20230718/03.png)
+![03](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230718/03.png)
 
-![04](/images/20230718/04.png)
+![04](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230718/04.png)
 
 配置了 ecmaVersion 为6后，Espree 就可以正常工作。
 
-![05](/images/20230718/05.png)
+![05](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230718/05.png)
 
-![06](/images/20230718/06.png)
+![06](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230718/06.png)
 
 Typescript 也有解析器，作用同样是将源码转换为 AST，这个 AST 被 Typescript 编译器其他部分用来做校验例如类型检查等，但是该 AST 与 ESLint 的默认解析器 Espree 转换出来的 AST 的内容和格式是不一样的，所以 ESLint 是不能识别 typescript 的 parser 转换出来的 AST 内容。所以如果源码是 Typescript，应该使用 @typescript-eslint/parser 解析器。
 

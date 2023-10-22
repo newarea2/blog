@@ -9,7 +9,7 @@
 - 使用 `v-bind`、`v-on`，减少变量命名麻烦；
 - 使用 `useAttrs()` 接收组件变化的参数。
 
-![01](/images/20230529/01.png)
+![01](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230529/01.png)
 
 1 src/settings/modal.ts 组件默认配置
 

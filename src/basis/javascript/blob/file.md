@@ -8,4 +8,4 @@ File 接口基于 Blob，继承了 Blob 的所有属性和方法，File 对象�
 
 不像服务器端可以直接通过文件路径读取文件，Web应用可以通过下面方式读取计算机上的文件
 
-![03](/images/20230802/03.png)
+![03](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230802/03.png)

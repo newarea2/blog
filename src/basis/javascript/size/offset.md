@@ -39,7 +39,7 @@ offsetLeft 与 offsetTop 类似，offsetWidth 与 offsetHeight，下面只讲解
 </body>
 </html>
 ```
-![06](/images/20230731/06.png)
+![06](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230731/06.png)
 
 ## 2 如何确定 offsetParent 元素
 

@@ -6,7 +6,7 @@
 
 **全局 nmp 的位置可以通过 `npm config ls -l` 来查看**
 
-![05](/images/20230719/05.png)
+![05](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/05.png)
 
 或者通过 `npm root -g` 来查看
 
@@ -17,9 +17,9 @@ cd npm-test-zbx
 npm link
 ```
 
-![02](/images/20230719/02.png)
+![02](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/02.png)
 
-![03](/images/20230719/03.png)
+![03](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/03.png)
 
 ## 2 在项目 test 中使用 npm-test-zbx
 
@@ -28,7 +28,7 @@ cd test
 npm link npm-test-zbx
 ```
 
-![04](/images/20230719/04.png)
+![04](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/04.png)
 
 ## 3 从项目 test 中卸载 npm-test-zbx
 
@@ -37,7 +37,7 @@ cd test
 npm unlink npm-test-zbx
 ```
 
-![06](/images/20230719/06.png)
+![06](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/06.png)
 
 ## 4 将包 npm-test-zbx 从全局 npm 中卸载
 

@@ -17,7 +17,7 @@ console.log(len) // 9
 ```
 
 for循环语句的执行顺序简单介绍，图示如下：
-![图一](/images/20230730/01for.jpg)
+![图一](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230730/01for.jpg)
 
 按照语法结构对代码进行一下分析：
 

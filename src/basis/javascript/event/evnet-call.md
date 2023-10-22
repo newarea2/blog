@@ -27,7 +27,7 @@
 
 控制台输出：
 
-![01](/images/20230829/01.png)
+![01](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230829/01.png)
 
 ## 2 JavaScript 中
 
@@ -51,7 +51,7 @@
 
 控制台输出：
 
-![02](/images/20230829/02.png)
+![02](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230829/02.png)
 
 ### 2.2 通过 addEventListener 方法
 
@@ -84,7 +84,7 @@
 </script>
 ```
 
-![03](//images/20230829/20230801/03.png)
+![03](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230829/03.png)
 
 ## 4 vue是通过`v-on`简写`@`来绑定事件，如
 

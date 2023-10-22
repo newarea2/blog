@@ -31,7 +31,7 @@ what
 
 所以我们的工具就可以设计成和 vue-cli 工具那样，通过在终端执行，可以和用户做交互，然后基于用户的选择来自动生成对应的 koa 项目模板
 
-![2021-06-25 11_22_19.gif](/images/20230719/pic_014.gif)
+![2021-06-25 11_22_19.gif](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_014.gif)
 
 > 在我们去使用社区里面优秀工具的时候，除了使用层面，还应该去吸收它解决问题的思想
 
@@ -297,7 +297,7 @@ export function createConfig(answer) {
 
 这样的话，在执行这个脚本的时候，操作系统就会调用 node 来执行了
 
-![image.png](/images/20230719/pic_015.png)
+![image.png](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_015.png)
 
 > 具体的代码目录结构可参考[代码库](https://github.com/cuixiaorui/teach-koa-setup)
 
@@ -309,9 +309,9 @@ export function createConfig(answer) {
 
 npm 会帮助我们把这个项目链接到 root 下，可以执行 npm root -g 来查看
 
-![image.png](/images/20230719/pic_016.png)
+![image.png](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_016.png)
 
-![image.png](/images/20230719/pic_017.png)
+![image.png](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_017.png)
 
 > teach-setup-koa 通过软连接的方式指向了你的代码库
 
@@ -319,7 +319,7 @@ npm 会帮助我们把这个项目链接到 root 下，可以执行 npm root -g 
 
 比如说，你在 package.json 里面 name 是 teach-setup-koa , 那么在你执行完 npm link 后，就可以在终端执行 teach-setup-koa 命令了
 
-![image.png](/images/20230719/pic_018.png)
+![image.png](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_018.png)
 
 一般这一步骤会帮助我们看看有没有路径引入的错误
 
@@ -345,7 +345,7 @@ npm publish
 
 让程序跑起来是第一步，第二步的时候就需要对其做点小优化，比如可以在 run 到每一步骤的时候给予用户提示
 
-![image.png](/images/20230719/pic_019.png)
+![image.png](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_019.png)
 
 怎么可以做到呢？ 可以使用 [chalk](https://www.npmjs.com/package/chalk) 这个库，来给我们的 console.log 加点颜色
 
@@ -368,7 +368,7 @@ console.log(chalk.blue(`安装依赖`))
 
 如果你现在打开我们生成的代码的话，你会发现 index.js 和 package.json 代码格式都是乱的，比如含有很多的空格
 
-![image.png](/images/20230719/pic_020.png)
+![image.png](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_020.png)
 
 大家可以想想平时是用得什么来格式化代码的，是不是用过 prettier
 

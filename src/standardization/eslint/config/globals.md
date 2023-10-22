@@ -9,7 +9,7 @@
 
 ## 1 不定义全局变量 foo
 
-![09](/images/20230718/09.png)
+![09](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230718/09.png)
 
 ## 2 定义只读环境变量
 
@@ -22,7 +22,7 @@ module.exports = {
 }
 ```
 
-![07](/images/20230718/07.png)
+![07](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230718/07.png)
 
 ## 3 定义可写环境变量
 
@@ -35,4 +35,4 @@ module.exports = {
 }
 ```
 
-![08](/images/20230718/08.png)
+![08](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230718/08.png)

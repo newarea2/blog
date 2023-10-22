@@ -264,7 +264,7 @@ export { CreatePlaylistRequestParams, createPlaylist } from "./api";
 
 报错：
 
-![](/images/20230713/11.png)
+![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230713/11.png)
 
 一些理解：
 

@@ -6,12 +6,12 @@
 
 申请获取 Xshell 免费版的下载链接：
 
-![01](/images/20230807/01.png)
+![01](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230807/01.png)
 
-![02](/images/20230807/02.png)
+![02](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230807/02.png)
 
-![03](/images/20230807/03.png)
+![03](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230807/03.png)
 
-![04](/images/20230807/04.png)
+![04](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230807/04.png)
 
-![05](/images/20230807/05.png)
+![05](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230807/05.png)

@@ -4,7 +4,7 @@
 
 如果是标准盒子模型，元素的大小等于width/height + padding + border-width的总和。如果box-sizing: border-box，元素的的大小等于 width/height。
 
-![04](/images/20230731/04.png)
+![04](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230731/04.png)
 
 ```html
 <style>
@@ -28,4 +28,4 @@
 
 点击按钮，浏览器控制台打印如下
 
-![05](/images/20230731/05.png)
+![05](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230731/05.png)

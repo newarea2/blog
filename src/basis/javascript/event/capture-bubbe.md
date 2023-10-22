@@ -8,7 +8,7 @@
 
 点击页面中的某个按钮，其实也单击了按钮的容器元素，甚至单击了整个页面。如果在这些元素上绑定点击事件回调，回调都将被触发，那么这些回调的触发的顺序是怎样的呢。
 
-![03](/images/20230831/03.png)
+![03](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230831/03.png)
 
 1. 一个完整的JS事件流是从window开始，最后回到window的一个过程。
 
@@ -140,14 +140,14 @@ e.target和e.currentTarget的区别：
 </html>
 ```
 
-![04](/images/20230801/04.png)
+![04](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230801/04.png)
 
 点击按钮button，打印信息如下：
 
-![05](/images/20230801/05.png)
+![05](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230801/05.png)
 
 点击 p 元素（蓝色区域），打印信息如下：
 
-![06](/images/20230801/06.png)
+![06](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230801/06.png)
 
-![07](/images/20230801/07.png)
+![07](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230801/07.png)

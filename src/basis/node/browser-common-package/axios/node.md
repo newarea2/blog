@@ -18,7 +18,7 @@ axios.interceptors.response.use(function (response) {
 ## 1 走节点1
 
 1 请求成功 `response.status === 200`
-![请求成功](/images/20230723/01.png)
+![请求成功](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230723/01.png)
 
 2 客户端和服务器端都正常，请求成功，服务器根据客户端上传的参数信息，返回异常响应
 某人账号100元余额，现要对该账户进行扣款，如果输入扣款金额40元，那么提交扣款接口可以成功扣款，返回
@@ -29,7 +29,7 @@ response.data === {
   message: '扣款成功！'
 }
 ```
-![请求成功](/images/20230723/06.png)
+![请求成功](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230723/06.png)
 
 如果输入扣款金额120元，由于扣款金额大于账户余额，因此扣款失败，返回
 
@@ -42,10 +42,10 @@ response.data === {
 ## 2 走节点2
 
 1 请求不存在的接口 `error.response.status === 404`
-![请求不存在的接口](/images/20230723/02.png)
+![请求不存在的接口](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230723/02.png)
 
 2 关闭服务器（即服务没启动） `error.response.status === 500`
-![请求不存在的接口](/images/20230723/03.png)
+![请求不存在的接口](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230723/03.png)
 
 3 用户发出的请求有错误
 
@@ -58,7 +58,7 @@ router.get('/api/test', (req, res) => {
   })
 })
 ```
-![用户发出的请求有错误](/images/20230723/04.png)
+![用户发出的请求有错误](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230723/04.png)
 
 4 用户没有权限
 
@@ -71,4 +71,4 @@ router.get('/api/test', (req, res) => {
   })
 })
 ```
-![用户没有权限](/images/20230723/05.png)
+![用户没有权限](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230723/05.png)
