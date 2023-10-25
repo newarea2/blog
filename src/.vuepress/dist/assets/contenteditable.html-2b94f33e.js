@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o as t,c as o,a as n}from"./app-72775176.js";const c={},_=n("p",null,"contentEditable 属性可以打开某些元素的可编辑状态",-1),a=[_];function s(l,r){return t(),o("div",null,a)}const f=e(c,[["render",s],["__file","contenteditable.html.vue"]]);export{f as default};

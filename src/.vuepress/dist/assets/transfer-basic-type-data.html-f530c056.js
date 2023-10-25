@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o as t,c as r}from"./app-f1b20077.js";const a={};function c(o,s){return t(),r("div")}const f=e(a,[["render",c],["__file","transfer-basic-type-data.html.vue"]]);export{f as default};

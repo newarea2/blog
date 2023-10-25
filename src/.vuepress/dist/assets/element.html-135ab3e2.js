@@ -1,0 +1,1 @@
+import{_ as t}from"./plugin-vue_export-helper-c27b6911.js";import{o,c as s,a as e}from"./app-72775176.js";const n={},_=e("p",null,"symbol 元素",-1),c=e("p",null,"use 元素",-1),l=e("p",null,"g 元素",-1),r=[_,c,l];function a(m,i){return o(),s("div",null,r)}const f=t(n,[["render",a],["__file","element.html.vue"]]);export{f as default};

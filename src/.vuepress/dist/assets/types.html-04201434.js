@@ -1,1 +1,0 @@
-import{_ as t}from"./plugin-vue_export-helper-c27b6911.js";import{o,c as s,a as e}from"./app-f1b20077.js";const c={},_=e("p",null,"或者 typings",-1),n=e("p",null,"指定类型定义文件，TypeScript 解析文件的入口, 该文件会被发布到 NPM, 并且可以被下载，为用户提供更加好的 IDE 支持。",-1),r=[_,n];function l(a,p){return o(),s("div",null,r)}const f=t(c,[["render",l],["__file","types.html.vue"]]);export{f as default};
