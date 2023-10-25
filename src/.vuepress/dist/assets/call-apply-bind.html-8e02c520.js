@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o as c,c as t}from"./app-f1b20077.js";const l={};function o(r,n){return c(),t("div")}const p=e(l,[["render",o],["__file","call-apply-bind.html.vue"]]);export{p as default};
