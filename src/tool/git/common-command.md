@@ -12,7 +12,8 @@
 git branch test
 git checkout test
 ```
-- - `git checkout -b test master` 从指代分支创建新分支，并切换到新分支
+
+- `git checkout -b test master` 从指代分支创建新分支，并切换到新分支
 
 - `git branch` 查看本地所有分支
 
