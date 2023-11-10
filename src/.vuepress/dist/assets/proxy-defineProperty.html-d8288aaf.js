@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o as r,c as o}from"./app-72775176.js";const t={};function c(n,_){return r(),o("div")}const s=e(t,[["render",c],["__file","proxy-defineProperty.html.vue"]]);export{s as default};

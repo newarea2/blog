@@ -108,7 +108,3 @@ code {
   box-shadow: 0 0.5rem 1rem rgba(34, 34, 34, 0.15);
 }
 ```
-
-
-
-

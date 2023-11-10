@@ -1,8 +1,9 @@
-import { defineUserConfig } from "vuepress";
+import { defineUserConfig, viteBundler  } from "vuepress";
 import theme from "./theme.js";
+import path from 'path'
 
 export default defineUserConfig({
-  base: "/blog/",
+  // base: "/blog/",
 
   lang: "zh-CN",
   title: "前端笔记",
@@ -11,4 +12,6 @@ export default defineUserConfig({
 
   // Enable it with pwa
   // shouldPrefetch: false,
-});
+
+  port: 8888
+})

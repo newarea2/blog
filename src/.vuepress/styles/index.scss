@@ -1,1 +1,8 @@
 // place your custom styles here
+.vp-navbar .nav-item:has(.active) .title {
+  color: var(--theme-color);
+}
+
+.vp-sidebar .vp-sidebar-links>li:has(.active) .vp-sidebar-title {
+  color: var(--theme-color);
+}
