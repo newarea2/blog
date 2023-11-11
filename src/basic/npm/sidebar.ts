@@ -2,15 +2,15 @@ import { SidebarArrayOptions } from "vuepress-theme-hope"
 
 const sidebar: SidebarArrayOptions = [
   {
-    text: 'Axios',
+    text: 'package',
     collapsible: true,
-    prefix: '/dependency/browser/axios',
+    prefix: '/basic/npm/package',
     children: [
-      { text: '基础', link: 'basis' },
-      { text: '结合 async/await', link: 'async-await' },
-      { text: 'axios', link: 'axios' },
-      { text: '过滤值为空字符串的参数', link: 'filter-empty-string' },
-      { text: '拦截器', link: 'interceptors' },
+      { text: 'module', link: 'module' },
+      { text: 'peerDependencies', link: 'peerdependencies' },
+      { text: 'type', link: 'type' },
+      { text: 'types', link: 'types' },
+      { text: 'unpkg', link: 'unpkg' }
     ]
   },
   { text: 'cli 命令行（一）', link: '/basic/npm/cli' },

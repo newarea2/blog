@@ -4,7 +4,7 @@ const sidebar: SidebarArrayOptions = [
   {
     text: '动态使用 Icon',
     collapsible: true,
-    prefix: '/basis/html/svg',
+    prefix: '/basic/html/svg',
     children: [
       { text: '基础', link: 'basis' },
       { text: 'fill 和 stroke', link: 'fill-stroke' },
@@ -13,10 +13,10 @@ const sidebar: SidebarArrayOptions = [
       { text: 'viewbox', link: 'viewbox' },
     ]
   },
-  { text: 'contenteditable', link: '/basis/html/contenteditable' },
-  { text: '拖放', link: '/basis/html/drag' },
-  { text: '字符实体', link: '/basis/html/entity' },
-  { text: 'preload 和 prefetch', link: '/basis/html/preload-prefetch' },
+  { text: 'contenteditable', link: '/basic/html/contenteditable' },
+  { text: '拖放', link: '/basic/html/drag' },
+  { text: '字符实体', link: '/basic/html/entity' },
+  { text: 'preload 和 prefetch', link: '/basic/html/preload-prefetch' },
 ]
 
 export default sidebar

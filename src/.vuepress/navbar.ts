@@ -21,13 +21,13 @@ export const enNavbar = navbar([
   {
     text: '基础',
     children: [
-      { text: "HTML", activeMatch: '^/basis/html', link: "/basis/html/svg/basis" },
-      { text: "JavaScript", activeMatch: '^/basis/javascript', link: "/basis/javascript/blob/arraybuffer" },
-      { text: "CSS", activeMatch: '^/basis/css', link: "/basis/css/flex/basis" },
-      { text: "TypeScript", activeMatch: '^/basis/typescript', link: "/basis/typescript/config/basis" },
-      // { text: "Tailwind CSS", activeMatch: '^/basis/tailwindCss', link: "/react/bind-this" },
-      { text: "Node", activeMatch: '^/basis/node', link: "/basis/node/argv" },
-      { text: "Npm", activeMatch: '^/basis/npm', link: "/basis/npm/package/module" },
+      { text: "HTML", activeMatch: '^/basic/html', link: "/basic/html/svg/basic" },
+      { text: "JavaScript", activeMatch: '^/basic/javascript', link: "/basic/javascript/blob/arraybuffer" },
+      { text: "CSS", activeMatch: '^/basic/css', link: "/basic/css/flex/basic" },
+      { text: "TypeScript", activeMatch: '^/basic/typescript', link: "/basic/typescript/config/basic" },
+      // { text: "Tailwind CSS", activeMatch: '^/basic/tailwindCss', link: "/react/bind-this" },
+      { text: "Node", activeMatch: '^/basic/node', link: "/basic/node/argv" },
+      { text: "Npm", activeMatch: '^/basic/npm', link: "/basic/npm/package/module" },
     ]
   },
   {
@@ -50,15 +50,9 @@ export const enNavbar = navbar([
   {
     text: '依赖包',
     children: [
-      { text: 'Node 端', activeMatch: '^/basis/npm', link: '' },
-      { text: '浏览器端', activeMatch: '^/basis/npm', link: '' },
+      { text: 'Node 端', activeMatch: '^/dependency/node', link: '/dependency/node/express/basic' },
+      { text: '浏览器端', activeMatch: '^/dependency/browser', link: '/dependency/browser/axios/basic' },
     ]
   },
-  {
-    text: '规范化',
-    children: [
-      { text: "ESLint", activeMatch: '^/basis/npm', link: "/framework/vue/watch/" },
-      { text: "Prettier", activeMatch: '^/basis/npm', link: "/react/bind-this" },
-    ]
-  }
+  { text: '规范化', activeMatch: '^/standardization', link: '/standardization/eslint/basic' },
 ])

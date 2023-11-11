@@ -4,7 +4,7 @@ const sidebar: SidebarArrayOptions = [
   {
     text: 'Blob',
     collapsible: true,
-    prefix: '/basis/javascript/blob',
+    prefix: '/basic/javascript/blob',
     children: [
       { text: 'ArrayBuffer', link: 'arraybuffer' },
       { text: 'Blob URL 和 Data URL 的区别', link: 'blob-url-vs-data-url' },
@@ -16,7 +16,7 @@ const sidebar: SidebarArrayOptions = [
   {
     text: 'class',
     collapsible: true,
-    prefix: '/basis/javascript/class',
+    prefix: '/basic/javascript/class',
     children: [
       { text: '类的构造函数', link: 'constructor' },
       { text: 'this 指向', link: 'this' }
@@ -25,7 +25,7 @@ const sidebar: SidebarArrayOptions = [
   {
     text: 'Date',
     collapsible: true,
-    prefix: '/basis/javascript/date',
+    prefix: '/basic/javascript/date',
     children: [
       { text: '日期 Date 兼容性', link: 'compatibility' },
       { text: '日期时间的获取与设置', link: 'data-get-set' },
@@ -35,7 +35,7 @@ const sidebar: SidebarArrayOptions = [
   {
     text: 'Dom',
     collapsible: true,
-    prefix: '/basis/javascript/dom',
+    prefix: '/basic/javascript/dom',
     children: [
       { text: '操作类名', link: 'operate-class' },
       { text: 'data 属性', link: 'data-attribute' }
@@ -44,7 +44,7 @@ const sidebar: SidebarArrayOptions = [
   {
     text: '下载',
     collapsible: true,
-    prefix: '/basis/javascript/download',
+    prefix: '/basic/javascript/download',
     children: [
       { text: '基础', link: 'basis' },
     ]
@@ -52,7 +52,7 @@ const sidebar: SidebarArrayOptions = [
   {
     text: 'event',
     collapsible: true,
-    prefix: '/basis/javascript/event',
+    prefix: '/basic/javascript/event',
     children: [
       { text: '捕获、冒泡', link: 'capture-bubble' },
       { text: '同步任务、任务队列', link: 'event-loop' },
@@ -63,7 +63,7 @@ const sidebar: SidebarArrayOptions = [
   {
     text: 'function',
     collapsible: true,
-    prefix: '/basis/javascript/function',
+    prefix: '/basic/javascript/function',
     children: [
       { text: '匿名函数', link: 'anonymous-function' },
       { text: '立即执行函数', link: 'iife' }
@@ -72,7 +72,7 @@ const sidebar: SidebarArrayOptions = [
   {
     text: 'http',
     collapsible: true,
-    prefix: '/basis/javascript/http',
+    prefix: '/basic/javascript/http',
     children: [
       { text: '浏览器缓存', link: 'browser-cache' },
       { text: 'content-type', link: 'content-type' },
@@ -86,7 +86,7 @@ const sidebar: SidebarArrayOptions = [
   {
     text: 'JQuery',
     collapsible: true,
-    prefix: '/basis/javascript/jquery',
+    prefix: '/basic/javascript/jquery',
     children: [
       { text: '插件', link: 'plugin' },
       { text: '设置按钮的 disabled 属性', link: 'set-button-disabled' },
@@ -96,7 +96,7 @@ const sidebar: SidebarArrayOptions = [
   {
     text: 'module',
     collapsible: true,
-    prefix: '/basis/javascript/module',
+    prefix: '/basic/javascript/module',
     children: [
       { text: '模块的输入输出', link: 'import-export' },
       { text: '在 HTML 中使用模块', link: 'apply-module-in-html' },
@@ -106,7 +106,7 @@ const sidebar: SidebarArrayOptions = [
   {
     text: '位置',
     collapsible: true,
-    prefix: '/basis/javascript/position',
+    prefix: '/basic/javascript/position',
     children: [
       { text: 'pageX 和 pageY', link: 'pagex-pagey' },
       { text: 'screenX 和 screenY', link: 'screenx-screeny' },
@@ -115,7 +115,7 @@ const sidebar: SidebarArrayOptions = [
   {
     text: 'Promise',
     collapsible: true,
-    prefix: '/basis/javascript/promise',
+    prefix: '/basic/javascript/promise',
     children: [
       { text: '重试', link: 'retry' }
     ]
@@ -123,7 +123,7 @@ const sidebar: SidebarArrayOptions = [
   {
     text: '正则表达式',
     collapsible: true,
-    prefix: '/basis/javascript/regexp',
+    prefix: '/basic/javascript/regexp',
     children: [
       { text: '基础', link: 'basis' },
       { text: 'match', link: 'match' },
@@ -133,7 +133,7 @@ const sidebar: SidebarArrayOptions = [
   {
     text: '尺寸',
     collapsible: true,
-    prefix: '/basis/javascript/size',
+    prefix: '/basic/javascript/size',
     children: [
       { text: 'clientHeight、scrollTop、scrollHeight', link: 'clientheight-scrolltop-scrollheight' },
       { text: '获取宽高', link: 'get-width-height' },
@@ -142,39 +142,39 @@ const sidebar: SidebarArrayOptions = [
       { text: 'offset', link: 'offset' },
     ]
   },
-  { text: '同步 Ajax 无法 loading', link: '/basis/javascript/ajax-loading' },
-  { text: 'ajax', link: '/basis/javascript/ajax' },
-  { text: '类数组', link: '/basis/javascript/array-like-object' },
-  { text: 'base64', link: '/basis/javascript/base64' },
-  { text: 'break、continue', link: '/basis/javascript/break-continue' },
-  { text: 'call、apply、bind', link: '/basis/javascript/call-apply-bind' },
-  { text: '闭包', link: '/basis/javascript/closures' },
-  { text: 'contentEditable', link: '/basis/javascript/contentEditable' },
-  { text: '防抖、节流', link: '/basis/javascript/debounce-throttling' },
-  { text: 'decodeURI、decodeURIComponent', link: '/basis/javascript/decodeURI-decodeURIComponent' },
-  { text: '遍历数组删除指定元素', link: '/basis/javascript/delete-the-specified-element' },
-  { text: '导出', link: '/basis/javascript/download' },
-  { text: 'ECMAScript 特性', link: '/basis/javascript/ecmascript' },
-  { text: '转义字符', link: '/basis/javascript/escape' },
-  { text: 'for', link: '/basis/javascript/for 循环' },
-  { text: '获取视频第一帧', link: '/basis/javascript/get-the-first-frame-of-the-video' },
-  { text: '变量提升', link: '/basis/javascript/hoisting' },
-  { text: '身份证信息', link: '/basis/javascript/id-card' },
-  { text: 'Image', link: '/basis/javascript/image' },
-  { text: '继承与原型链', link: '/basis/javascript/inheritance-and-prototype-chain' },
-  { text: '检查是否为数组', link: '/basis/javascript/isArray' },
-  { text: '命名规范', link: '/basis/javascript/name-convention' },
-  { text: 'JSON.stringify', link: '/basis/javascript/JSON-stringify' },
-  { text: 'Math', link: '/basis/javascript/math' },
-  { text: 'mouseover、mouseenter.md', link: '/basis/javascript/mouseover-mouseenter.md' },
-  { text: 'number', link: '/basis/javascript/number' },
-  { text: 'Object.keys', link: '/basis/javascript/Object-keys' },
-  { text: '操作符', link: '/basis/javascript/operator' },
-  { text: '打印', link: '/basis/javascript/print' },
-  { text: '递归', link: '/basis/javascript/recursion' },
-  { text: '设置、获取样式', link: '/basis/javascript/set-get-style' },
-  { text: 'UrlEncode 编码', link: '/basis/javascript/urlencode' },
-  { text: '天气', link: '/basis/javascript/weather' },
+  { text: '同步 Ajax 无法 loading', link: '/basic/javascript/ajax-loading' },
+  { text: 'ajax', link: '/basic/javascript/ajax' },
+  { text: '类数组', link: '/basic/javascript/array-like-object' },
+  { text: 'base64', link: '/basic/javascript/base64' },
+  { text: 'break、continue', link: '/basic/javascript/break-continue' },
+  { text: 'call、apply、bind', link: '/basic/javascript/call-apply-bind' },
+  { text: '闭包', link: '/basic/javascript/closures' },
+  { text: 'contentEditable', link: '/basic/javascript/contentEditable' },
+  { text: '防抖、节流', link: '/basic/javascript/debounce-throttling' },
+  { text: 'decodeURI、decodeURIComponent', link: '/basic/javascript/decodeURI-decodeURIComponent' },
+  { text: '遍历数组删除指定元素', link: '/basic/javascript/delete-the-specified-element' },
+  { text: '导出', link: '/basic/javascript/download' },
+  { text: 'ECMAScript 特性', link: '/basic/javascript/ecmascript' },
+  { text: '转义字符', link: '/basic/javascript/escape' },
+  { text: 'for', link: '/basic/javascript/for 循环' },
+  { text: '获取视频第一帧', link: '/basic/javascript/get-the-first-frame-of-the-video' },
+  { text: '变量提升', link: '/basic/javascript/hoisting' },
+  { text: '身份证信息', link: '/basic/javascript/id-card' },
+  { text: 'Image', link: '/basic/javascript/image' },
+  { text: '继承与原型链', link: '/basic/javascript/inheritance-and-prototype-chain' },
+  { text: '检查是否为数组', link: '/basic/javascript/isArray' },
+  { text: '命名规范', link: '/basic/javascript/name-convention' },
+  { text: 'JSON.stringify', link: '/basic/javascript/JSON-stringify' },
+  { text: 'Math', link: '/basic/javascript/math' },
+  { text: 'mouseover、mouseenter.md', link: '/basic/javascript/mouseover-mouseenter.md' },
+  { text: 'number', link: '/basic/javascript/number' },
+  { text: 'Object.keys', link: '/basic/javascript/Object-keys' },
+  { text: '操作符', link: '/basic/javascript/operator' },
+  { text: '打印', link: '/basic/javascript/print' },
+  { text: '递归', link: '/basic/javascript/recursion' },
+  { text: '设置、获取样式', link: '/basic/javascript/set-get-style' },
+  { text: 'UrlEncode 编码', link: '/basic/javascript/urlencode' },
+  { text: '天气', link: '/basic/javascript/weather' },
 ]
 
 export default sidebar
