@@ -6,7 +6,7 @@ const sidebar: SidebarArrayOptions = [
     collapsible: true,
     prefix: '/basic/html/svg',
     children: [
-      { text: '基础', link: 'basis' },
+      { text: '基础', link: 'basic' },
       { text: 'fill 和 stroke', link: 'fill-stroke' },
       { text: 'element', link: 'element' },
       { text: 'SVG 雪碧图', link: 'svg-sprite' },

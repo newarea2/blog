@@ -6,7 +6,7 @@ const sidebar: SidebarArrayOptions = [
     collapsible: true,
     prefix: '/basic/css/flex',
     children: [
-      { text: '基础', link: 'basis' },
+      { text: '基础', link: 'basic' },
       { text: 'flex-basis', link: 'flex-basis' },
       { text: 'flex-wrap-vs-flex-shrink', link: 'flex-wrap 和 flex-shrink' },
       { text: 'flex值为1', link: 'shorthand-values-for-the-flex-properties' }
@@ -17,7 +17,7 @@ const sidebar: SidebarArrayOptions = [
     collapsible: true,
     prefix: '/basic/css/grid',
     children: [
-      { text: '基础', link: 'basis' },
+      { text: '基础', link: 'basic' },
     ]
   },
   {

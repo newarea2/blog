@@ -6,7 +6,7 @@ const sidebar: SidebarArrayOptions = [
     collapsible: true,
     prefix: '/basic/typescript/config',
     children: [
-      { text: '基础', link: 'basis' },
+      { text: '基础', link: 'basic' },
       { text: 'files、extends、include、exclude', link: 'files-extends-include-exclude' },
       { text: 'references', link: 'references-composite' },
       { text: 'baseUrl、paths', link: 'baseurl-paths' },

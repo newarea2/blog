@@ -55,4 +55,5 @@ export const enNavbar = navbar([
     ]
   },
   { text: '规范化', activeMatch: '^/standardization', link: '/standardization/eslint/basic' },
+  { text: '工具', activeMatch: '^/tool', link: '/tool/git/associate-github' },
 ])

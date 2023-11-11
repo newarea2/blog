@@ -6,7 +6,7 @@ const sidebar: SidebarArrayOptions = [
     collapsible: true,
     prefix: '/dependency/browser/axios',
     children: [
-      { text: '基础', link: 'basis' },
+      { text: '基础', link: 'basic' },
       { text: '结合 async/await', link: 'async-await' },
       { text: 'axios', link: 'axios' },
       { text: '过滤值为空字符串的参数', link: 'filter-empty-string' },

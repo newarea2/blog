@@ -6,7 +6,7 @@ const sidebar: SidebarArrayOptions = [
     collapsible: true,
     prefix: '/dependency/node/express',
     children: [
-      { text: '基础', link: 'basis' }
+      { text: '基础', link: 'basic' }
     ]
   },
   {

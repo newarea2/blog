@@ -46,7 +46,7 @@ const sidebar: SidebarArrayOptions = [
     collapsible: true,
     prefix: '/basic/javascript/download',
     children: [
-      { text: '基础', link: 'basis' },
+      { text: '基础', link: 'basic' },
     ]
   },
   {
@@ -125,7 +125,7 @@ const sidebar: SidebarArrayOptions = [
     collapsible: true,
     prefix: '/basic/javascript/regexp',
     children: [
-      { text: '基础', link: 'basis' },
+      { text: '基础', link: 'basic' },
       { text: 'match', link: 'match' },
       { text: 'replace', link: 'replace' },
     ]

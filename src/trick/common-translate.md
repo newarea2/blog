@@ -4,11 +4,11 @@
 
 |符号|英文|中文|
 | :--- | :--- | :--- |
-|,|comma|逗号
-|{}|curly braces| 大括号、花括号
-|'|single quotation marks| 单引号
-|"|double quotation marks| 双引号
-|-|hyphen| 连字符
+|`,`|comma|逗号
+|`{}`|curly braces| 大括号、花括号
+|`'`|single quotation marks| 单引号
+|`"`|double quotation marks| 双引号
+|`-`|hyphen| 连字符
 
 行政名称
 

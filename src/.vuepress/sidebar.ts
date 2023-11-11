@@ -23,6 +23,8 @@ import dependencyNode from '../dependency/node/sidebar'
 
 import standardization from '../standardization/sidebar'
 
+import tool from '../tool/sidebar'
+
 export const enSidebar = sidebar({
   '/framework/vue/': vue,
   '/framework/react/': react,
@@ -47,4 +49,6 @@ export const enSidebar = sidebar({
   '/dependency/node/': dependencyNode,
 
   '/standardization/': standardization,
+
+  '/tool/': tool,
 });
