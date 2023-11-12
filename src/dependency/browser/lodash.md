@@ -6,6 +6,8 @@ lodash 和 lodash-es 区别
 
 uniq
 
+remove
+
 ## 语言
 
 `isPlainObject` 和 `isObject`
@@ -25,9 +27,13 @@ const o = {}
 const isEmpty = Object.keys(o).length === 0
 ```
 
-`isPlainObject`
-
 `isNil`
+
+检查值是否为 `null` 或 `undefined`。
+
+`isNull`
+
+检查值是否为 `null`。
 
 ## 对象
 

@@ -35,6 +35,7 @@ const sidebar: SidebarArrayOptions = [
     prefix: '/tool/vscode',
     children: [
       { text: '将 VSCode 添加至右键菜单', link: 'add-vscode-to-the-comtext-menu' },
+      { text: '自定义折叠代码区别', link: 'fold-code' },
       { text: '常用插件', link: 'plugin' },
       { text: '常用配置', link: 'setting' },
       { text: '常用快捷键', link: 'shortcut-key' }

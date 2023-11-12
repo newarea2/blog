@@ -47,3 +47,37 @@ console.log(i)
 ```
 
 **特别说明**：for后面的小括号中，分号有且只能有两个。
+
+## for 循环和 forEach 的区别
+
+### forEach不能遍历部分类数组对象
+
+### 中断循环方式不同
+
+- for循环通过continue中断一次循环，break中断后续循环，不能使用return中断（会报错）
+- forEach是函数，不能使用continue和break中断循环，可以使用return中断一次循环，throw中断后续循环
+
+```js
+let a = [1, 2, 3, 4]
+for (var i = 0; i < a.length; i++) {
+  if (i === 2) {
+    // break // 打印结果：1
+    continue // 打印结果：124
+  }
+  console.log(a[i])
+}
+try {
+  // 需要使用trycatch包裹，避免影响其他代码执行
+  a.forEach(element => {
+    if (element === 2) {
+      // return  // 中断一次循环，打印结果：124
+      throw new Error('中断循环')  // 中断后续循环，打印结果：1
+    }
+    console.log(element)
+  })
+} catch (error) {}
+```
+
+### 处理 async/await 方式不同
+
+https://blog.csdn.net/RaeZhang/article/details/117528885

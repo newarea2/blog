@@ -27,7 +27,7 @@ interface Girl {
 
 ### 1.1 新增属性
 
-新建一个新接口继承并已有接口
+新建一个新接口继承已有接口
 
 ```ts
 interface Animal {

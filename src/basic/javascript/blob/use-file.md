@@ -105,6 +105,8 @@ label:hover {
 
 #### 2.1.1 通过 Data URL
 
+借助 `FileReader` 实例方法 `readAsDataURL` 将文件内容读取为 base64。
+
 ```html
 <input type="file" multiple onchange="handleFiles(this.files)">
 <div id="preview"></div>
@@ -135,6 +137,8 @@ label:hover {
 ```
 
 #### 2.1.2 通过对象 URL
+
+借助 `URL.createObjectURL`。
 
 ```html
 <input type="file" id="fileElem" multiple accept="image/*" style="display:none" onchange="handleFiles(this.files)">
@@ -185,3 +189,30 @@ label:hover {
 ```
 
 ### 2.2 上传一个用户选择的文件
+
+### 2.3 预览文件文本内容
+
+借助 `FileReader` 实例方法 `readAsText` 将文件内容读取为文本字符串。
+
+```html
+<input accept=".txt" id="fileInput" type="file">
+<textarea cols="50" id="textArea" rows="10"></textarea>
+
+<script>
+    const fileInput = document.getElementById("fileInput");
+    fileInput.addEventListener("change", uploadFile);
+
+    function uploadFile() {
+        let file = fileInput.files[0]; // 获取用户选择的第一个文件
+        let reader = new FileReader(); // 创建 FileReader 对象
+
+        reader.onload = function (e) {
+            let content = e.target.result; // 获取 FileReader 对象的 result 属性
+            let textArea = document.getElementById("textArea"); // 获取文本区域的元素对象
+            textArea.value = content; // 将字符串赋值给文本区域的 value 属性
+        }; // 添加 onload 事件监听器
+
+        reader.readAsText(file, "utf-8"); // 以 utf-8 编码格式读取文件内容
+    }
+</script>
+```
