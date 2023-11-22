@@ -30,6 +30,9 @@ export default hopeTheme({
     },
   },
 
+  displayFooter: true,
+  footer: '<a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2023127875号-1</a>',
+
   plugins: {
     // comment: {
     //   // @ts-expect-error: You should generate and use your own comment service
