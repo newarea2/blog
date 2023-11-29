@@ -28,9 +28,9 @@ jobs:
 
       # 安装 Node.js
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
-          node-version: lts
+          node-version: 18
           # 用于指定用于缓存的包管理器，应该先安装包管理器
           cache: pnpm
 
