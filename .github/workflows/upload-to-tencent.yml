@@ -1,35 +1,37 @@
-name: Build and Deploy
-# 监听 master 分支上的 push 事件
+name: Upload to Tencent
+
 on:
+  # 每当 push 到远程 master 分支时触发 Github Action
   push:
     branches:
       - master
+
 jobs:
-  build-and-deploy:
-    # 构建环境使用 ubuntu
+  upload-to-tencent:
+    # 使用环境
     runs-on: ubuntu-latest
 
     steps:
-      # 官方action, 将代码拉取到虚拟机
+      # 将代码拉取到虚拟机
       - name: Checkout
         uses: actions/checkout@v3
         with:
           persist-credentials: false
 
+      # 安装 pnpm
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
-          # 选择要使用的 pnpm 版本
           version: 8
-          # 使用 pnpm 安装依赖
+          # 使用 pnpm install 安装依赖
           run_install: true
 
+      # 安装 Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          # 选择要使用的 node 版本
-          node-version: 18
-          # 缓存 pnpm 依赖
+          node-version: lts
+          # 用于指定用于缓存的包管理器，应该先安装包管理器
           cache: pnpm
 
       # 运行构建脚本
@@ -53,6 +55,6 @@ jobs:
           # 指定上传服务器目录
           target: '/home/www/test'
           # 解压时覆盖现有文件
-          # overwrite: true
-          # 删除指定数量的前导路径元素
+          overwrite: true
+          # 删除指定数量的前导路径元素，必须指定，否则服务器中生成的路径为 /home/www/test/src/.vuepress/dist
           strip_components: 3
