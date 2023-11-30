@@ -11,6 +11,8 @@ permissions:
 
 jobs:
   deploy-docs:
+    # 暂时禁用该 job
+    if: ${{ false }}
     # 使用环境
     runs-on: ubuntu-latest
 
