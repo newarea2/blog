@@ -45,7 +45,8 @@ const sidebar: SidebarArrayOptions = [
   { text: 'CPU', link: '/tool/cpu' },
   { text: 'Photoshop', link: '/tool/photoshop' },
   { text: 'Stackblitz', link: '/tool/stackblitz' },
-  { text: 'xshell', link: '/tool/xshell' }
+  { text: 'Xshell', link: '/tool/xshell' },
+  { text: 'Xftp', link: '/tool/xftp' },
 ]
 
 export default sidebar
