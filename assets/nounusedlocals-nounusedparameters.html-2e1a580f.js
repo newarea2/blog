@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o,c as n}from"./app-90f462c1.js";const r={};function s(t,c){return o(),n("div")}const _=e(r,[["render",s],["__file","nounusedlocals-nounusedparameters.html.vue"]]);export{_ as default};
