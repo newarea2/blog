@@ -53,7 +53,7 @@ jobs:
           # 指定上传的文件目录(项目配置的打包目录名称)
           source: './src/.vuepress/dist/*'
           # 指定上传服务器目录
-          target: '/home/www/test'
+          target: '/home/www/blog'
           # 解压时覆盖现有文件
           overwrite: true
           # 删除指定数量的前导路径元素，必须指定，否则服务器中生成的路径为 /home/www/test/src/.vuepress/dist
