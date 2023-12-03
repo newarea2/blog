@@ -86,7 +86,7 @@ interface Foo {
 
 错误信息如下
 
-![10](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230713/10.png)
+![10](http://image.newarea.site/20230713/10.png)
 
 但是像下面这样写是没问题的
 

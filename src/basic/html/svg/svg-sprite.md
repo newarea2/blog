@@ -105,7 +105,7 @@ SVG 雪碧图主要利用了 `symbol` 和 `use` 元素
 </html>
 ```
 
-![01](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230729/08.png)
+![01](http://image.newarea.site/20230729/08.png)
 
 ## SVG图标如何变成symbol并整合在一起
 
@@ -166,7 +166,7 @@ SVG 雪碧图主要利用了 `symbol` 和 `use` 元素
 </svg>
 ```
 
-![02](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230729/09.png)
+![02](http://image.newarea.site/20230729/09.png)
 
 方式二：
 

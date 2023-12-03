@@ -6,7 +6,7 @@
 
 新建一个 npm 项目 test，安装依赖 element-ui `npm i element-ui`，控制台给出如下警告：
 
-![12](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/12.png)
+![12](http://image.newarea.site/20230719/12.png)
 
 意思是项目 test 需要提前安装 `vue@^2.5.17`，通俗的讲就是“如果你安装我，那么你最好也安装X”，确实，使用库 element-ui 的项目本身也是 Vue 项目。
 

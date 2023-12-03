@@ -11,7 +11,7 @@ npm i chalk
 
 包 chalk（v1.0.2） 所依赖的包如下：
 
-![07](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/07.png)
+![07](http://image.newarea.site/20230719/07.png)
 
 项目 test 生成的 package-lock.json：
 

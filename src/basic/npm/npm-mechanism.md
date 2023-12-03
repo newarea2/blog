@@ -3,7 +3,7 @@
 导读
 --
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_21.jpg)
+![](http://image.newarea.site/20230719/pic_21.jpg)
 
 现如今，前端开发的同学已经离不开 `npm` 这个包管理工具，其优秀的包版本管理机制承载了整个繁荣发展的`NodeJS`社区，理解其内部机制非常有利于加深我们对模块开发的理解、各项前端工程化的配置以加快我们排查问题（相信不少同学收到过各种依赖问题的困扰）的速度。
 
@@ -40,11 +40,11 @@
 
 `name` 是一个包的唯一标识，不得和其他包名重复，我们可以执行 `npm view packageName` 查看包是否被占用，并可以查看它的一些基本信息：
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_23.jpg)
+![](http://image.newarea.site/20230719/pic_23.jpg)
 
 若包名称从未被使用过，则会抛出 `404` 错误：
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_24.jpg)
+![](http://image.newarea.site/20230719/pic_24.jpg)
 
 另外，你还可以去 `https://www.npmjs.com/` 查询更多更详细的包信息。
 
@@ -75,7 +75,7 @@
 
 当然，他们的还有一个非常重要的作用，就是利于模块检索。当你使用 `npm search` 检索模块时，会到`description` 和 `keywords` 中进行匹配。写好 `description` 和 `keywords` 有利于你的模块获得更多更精准的曝光：
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_25.jpg)
+![](http://image.newarea.site/20230719/pic_25.jpg)
 
 #### 开发人员
 
@@ -108,7 +108,7 @@
 
 `repository` 用于指定模块的代码仓库。
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_26.jpg)
+![](http://image.newarea.site/20230719/pic_26.jpg)
 
 `bugs` 指定一个地址或者一个邮箱，对你的模块存在疑问的人可以到这里提出问题。
 
@@ -212,7 +212,7 @@ import * as ReactDOM from 'react-dom';
 
 例如，我在项目中依赖了 `antd` 的最新版本，然后依赖了 `react` 的 `15.6.0`版本，在进行依赖安装时将给出以下警告：
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_27.jpg)
+![](http://image.newarea.site/20230719/pic_27.jpg)
 
 #### optionalDependencies
 
@@ -242,7 +242,7 @@ import * as ReactDOM from 'react-dom';
 
 以下就是几种主流的开源协议：
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_28.jpg)
+![](http://image.newarea.site/20230719/pic_28.jpg)
 
 -   `MIT`：只要用户在项目副本中包含了版权声明和许可声明，他们就可以拿你的代码做任何想做的事情，你也无需承担任何责任。
 -   `Apache`：类似于 `MIT`，同时还包含了贡献者向用户提供专利授权相关的条款。
@@ -250,7 +250,7 @@ import * as ReactDOM from 'react-dom';
 
 如果你对开源协议有更详细的要求，可以到 [choosealicense.com/](https://link.juejin.cn/?target=https%3A%2F%2Fchoosealicense.com%2F "https://choosealicense.com/") 获取更详细的开源协议说明。
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_29.jpg)
+![](http://image.newarea.site/20230719/pic_29.jpg)
 
 ### 1.5 目录、文件相关
 
@@ -264,7 +264,7 @@ import * as ReactDOM from 'react-dom';
 
 `main` 属性可以指定程序的主入口文件，例如，上面 `antd` 指定的模块入口 `lib/index.js` ，当我们在代码用引入 `antd` 时：`import { notification } from 'antd';` 实际上引入的就是 `lib/index.js` 中暴露出去的模块。
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_30.jpg)
+![](http://image.newarea.site/20230719/pic_30.jpg)
 
 #### 命令行工具入口
 
@@ -296,7 +296,7 @@ import * as ReactDOM from 'react-dom';
 
 `files` 属性用于描述你 `npm publish` 后推送到 `npm` 服务器的文件列表，如果指定文件夹，则文件夹内的所有内容都会包含进来。我们可以看到下载后的包是下面的目录结构：
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_31.jpg)
+![](http://image.newarea.site/20230719/pic_31.jpg)
 
 > 另外，你还可以通过配置一个 `.npmignore` 文件来排除一些文件, 防止大量的垃圾文件推送到 `npm`, 规则上和你用的 `.gitignore` 是一样的。`.gitignore` 文件也可以充当`.npmignore` 文件。
 
@@ -321,7 +321,7 @@ import * as ReactDOM from 'react-dom';
 
 在命令行输入 `man npm-audit` ：
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_32.jpg)
+![](http://image.newarea.site/20230719/pic_32.jpg)
 
 #### 规范项目目录
 
@@ -386,7 +386,7 @@ import * as ReactDOM from 'react-dom';
 
 如果将 `private` 属性设置为 `true`，npm将拒绝发布它，这是为了防止一个私有模块被无意间发布出去。
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_33.jpg)
+![](http://image.newarea.site/20230719/pic_33.jpg)
 
 #### publishConfig
 
@@ -411,7 +411,7 @@ import * as ReactDOM from 'react-dom';
 
 例如，我把一个测试模块指定一个系统黑名单：`"os" : [ "!darwin" ]`，当我在此系统下安装它时会爆出如下错误：
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_34.jpg)
+![](http://image.newarea.site/20230719/pic_34.jpg)
 
 > 在node环境下可以使用 process.platform 来判断操作系统。
 
@@ -431,7 +431,7 @@ import * as ReactDOM from 'react-dom';
 
 `Nodejs`成功离不开 `npm` 优秀的依赖管理系统。在介绍整个依赖系统之前，必须要了解 `npm`如何管理依赖包的版本，本章将介绍 `npm包` 的版本发布规范、如何管理各种依赖包的版本以及一些关于包版本的最佳实践。
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_35.jpg)
+![](http://image.newarea.site/20230719/pic_35.jpg)
 
 ### 2.1 查看npm包版本
 
@@ -439,11 +439,11 @@ import * as ReactDOM from 'react-dom';
 
 执行 `npm view conard versions` 查看某个 `package` 在npm服务器上所有发布过的版本。
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_36.jpg)
+![](http://image.newarea.site/20230719/pic_36.jpg)
 
 执行 `npm ls` 可查看当前仓库依赖树上所有包的版本信息。
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_37.jpg)
+![](http://image.newarea.site/20230719/pic_37.jpg)
 
 ### 2.2 SemVer规范
 
@@ -475,7 +475,7 @@ import * as ReactDOM from 'react-dom';
 
 下面我们来看看 `React` 的历史版本：
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_38.gif)
+![](http://image.newarea.site/20230719/pic_38.gif)
 
 可见是严格按照 `SemVer` 规范来发版的：
 
@@ -585,7 +585,7 @@ semver.minVersion('>=1.0.0') // '1.0.0'
 
 我们的目的是保证团队中使用的依赖一致或者稳定，而不是永远不去更新这些依赖。实际开发场景下，我们虽然不需要每次都去安装新的版本，仍然需要定时去升级依赖版本，来让我们享受依赖包升级带来的问题修复、性能提升、新特性更新。
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_39.jpg)
+![](http://image.newarea.site/20230719/pic_39.jpg)
 
 使用 `npm outdated` 可以帮助我们列出有哪些还没有升级到最新版本的依赖：
 
@@ -624,7 +624,7 @@ semver.minVersion('>=1.0.0') // '1.0.0'
 三、剖析 npm install 原理
 -------------------
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_40.jpg)
+![](http://image.newarea.site/20230719/pic_40.jpg)
 
 `npm install` 大概会经过上面的几个流程，这一章就来讲一讲各个流程的实现细节、发展以及为何要这样实现。
 
@@ -660,13 +660,13 @@ semver.minVersion('>=1.0.0') // '1.0.0'
 
 那么，执行 `npm install` 后，得到的 `node_modules` 中模块目录结构就是下面这样的：
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_41.jpg)
+![](http://image.newarea.site/20230719/pic_41.jpg)
 
 这样的方式优点很明显， `node_modules` 的结构和 `package.json` 结构一一对应，层级结构明显，并且保证了每次安装目录结构都是相同的。
 
 但是，试想一下，如果你依赖的模块非常之多，你的 `node_modules` 将非常庞大，嵌套层级非常之深：
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_42.jpg)
+![](http://image.newarea.site/20230719/pic_42.jpg)
 
 -   在不同层级的依赖中，可能引用了同一个模块，导致大量冗余。
 -   在 `Windows` 系统中，文件路径最大长度为260个字符，嵌套层级过深可能导致不可预知的问题。
@@ -679,9 +679,9 @@ semver.minVersion('>=1.0.0') // '1.0.0'
 
 还是上面的依赖结构，我们在执行 `npm install` 后将得到下面的目录结构：
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_43.jpg)
+![](http://image.newarea.site/20230719/pic_43.jpg)
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_44.jpg)
+![](http://image.newarea.site/20230719/pic_44.jpg)
 
 此时我们若在模块中又依赖了 `base64-js@1.0.1` 版本：
 
@@ -700,9 +700,9 @@ semver.minVersion('>=1.0.0') // '1.0.0'
 
 此时，我们在执行 `npm install` 后将得到下面的目录结构：
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_45.jpg)
+![](http://image.newarea.site/20230719/pic_45.jpg)
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_46.jpg)
+![](http://image.newarea.site/20230719/pic_46.jpg)
 
 对应的，如果我们在项目代码中引用了一个模块，模块查找流程如下：
 
@@ -714,7 +714,7 @@ semver.minVersion('>=1.0.0') // '1.0.0'
 
 假设我们又依赖了一个包 `buffer2@^5.4.3`，而它依赖了包 `base64-js@1.0.3`，则此时的安装结构是下面这样的：
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_47.jpg)
+![](http://image.newarea.site/20230719/pic_47.jpg)
 
 所以 `npm 3.x` 版本并未完全解决老版本的模块冗余问题，甚至还会带来新的问题。
 
@@ -722,11 +722,11 @@ semver.minVersion('>=1.0.0') // '1.0.0'
 
 先依赖`buffer2`：
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_48.jpg)
+![](http://image.newarea.site/20230719/pic_48.jpg)
 
 先依赖`buffer`：
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_49.jpg)
+![](http://image.newarea.site/20230719/pic_49.jpg)
 
 另外，为了让开发者在安全的前提下使用最新的依赖包，我们在 `package.json` 通常只会锁定大版本，这意味着在某些依赖包小版本更新后，同样可能造成依赖结构的改动，依赖结构的不确定性可能会给程序带来不可预知的问题。
 
@@ -793,7 +793,7 @@ semver.minVersion('>=1.0.0') // '1.0.0'
 
 我们来具体看看上面的结构：
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_50.jpg)
+![](http://image.newarea.site/20230719/pic_50.jpg)
 
 最外面的两个属性 `name` 、`version` 同 `package.json` 中的 `name` 和 `version` ，用于描述当前包名称和版本。
 
@@ -809,7 +809,7 @@ semver.minVersion('>=1.0.0') // '1.0.0'
 
 例如，回顾下上面的依赖关系：
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_46.jpg)
+![](http://image.newarea.site/20230719/pic_46.jpg)
 
 我们在 `my-app` 中依赖的 `base64-js@1.0.1` 版本与 `buffer` 中依赖的 `base64-js@^1.0.2` 发生冲突，所以 `base64-js@1.0.1` 需要安装在 `buffer` 包的 `node_modules` 中，对应了 `package-lock.json` 中 `buffer` 的 `dependencies` 属性。这也对应了 `npm` 对依赖的扁平化处理方式。
 
@@ -821,11 +821,11 @@ semver.minVersion('>=1.0.0') // '1.0.0'
 
 不使用 `lock` 文件：
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_51.gif)
+![](http://image.newarea.site/20230719/pic_51.gif)
 
 使用 `lock` 文件：
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_52.gif)
+![](http://image.newarea.site/20230719/pic_52.gif)
 
 可见， `package-lock.json` 中已经缓存了每个包的具体版本和下载链接，不需要再去远程仓库进行查询，然后直接进入文件完整性校验环节，减少了大量网络请求。
 
@@ -851,7 +851,7 @@ npm 在执行安装时，可以根据 `package-lock.json` 中存储的 `integrit
 grep "https://registry.npmjs.org/base64-js/-/base64-js-1.0.1.tgz" -r index-v5
 ```
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_53.jpg)
+![](http://image.newarea.site/20230719/pic_53.jpg)
 
 然后我们将json格式化：
 
@@ -892,7 +892,7 @@ grep "https://registry.npmjs.org/base64-js/-/base64-js-1.0.1.tgz" -r index-v5
 
 上面的 `_shasum` 属性 `6926d1b194fbc737b8eed513756de2fcda7ea408` 即为 `tar` 包的 `hash`， `hash`的前几位 `6926` 即为缓存的前两层目录，我们进去这个目录果然找到的压缩后的依赖包：
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_54.jpg)
+![](http://image.newarea.site/20230719/pic_54.jpg)
 
 > 以上的缓存策略是从 npm v5 版本开始的，在 npm v5 版本之前，每个缓存的模块在 ~/.npm 文件夹中以模块名的形式直接存储，储存结构是{cache}/{name}/{version}。
 
@@ -914,7 +914,7 @@ grep "https://registry.npmjs.org/base64-js/-/base64-js-1.0.1.tgz" -r index-v5
 
 在下载依赖包之前，我们一般就能拿到 `npm` 对该依赖包计算的 `hash` 值，例如我们执行 `npm info` 命令，紧跟 `tarball`(下载链接) 的就是 `shasum`(`hash`) ：
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_55.jpg)
+![](http://image.newarea.site/20230719/pic_55.jpg)
 
 用户下载依赖包到本地后，需要确定在下载过程中没有出现错误，所以在下载完成之后需要在本地在计算一次文件的 `hash` 值，如果两个 `hash` 值是相同的，则确保下载的依赖是完整的，如果不同，则进行重新下载。
 
@@ -950,17 +950,17 @@ grep "https://registry.npmjs.org/base64-js/-/base64-js-1.0.1.tgz" -r index-v5
     -   检查 `package.json` 中的依赖版本是否和 `package-lock.json` 中的依赖有冲突。
     -   如果没有冲突，直接跳过获取包信息、构建依赖树过程，开始在缓存中查找包信息，后续过程相同
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_40.jpg)
+![](http://image.newarea.site/20230719/pic_40.jpg)
 
 上面的过程简要描述了 `npm install` 的大概过程，这个过程还包含了一些其他的操作，例如执行你定义的一些生命周期函数，你可以执行 `npm install package --timing=true --loglevel=verbose` 来查看某个包具体的安装流程和细节。
 
 ### 3.7 yarn
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_56.jpg)
+![](http://image.newarea.site/20230719/pic_56.jpg)
 
 `yarn` 是在 `2016` 年发布的，那时 `npm` 还处于 `V3` 时期，那时候还没有 `package-lock.json` 文件，就像上面我们提到的：不稳定性、安装速度慢等缺点经常会受到广大开发者吐槽。此时，`yarn` 诞生：
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_57.jpg)
+![](http://image.newarea.site/20230719/pic_57.jpg)
 
 上面是官网提到的 `yarn` 的优点，在那个时候还是非常吸引人的。当然，后来 `npm` 也意识到了自己的问题，进行了很多次优化，在后面的优化（`lock`文件、缓存、默认-s...）中，我们多多少少能看到 `yarn` 的影子，可见 `yarn` 的设计还是非常优秀的。
 
@@ -1006,7 +1006,7 @@ ignore@^5.1.4:
 
 `yarn` 的缓策略看起来和 `npm v5` 之前的很像，每个缓存的模块被存放在独立的文件夹，文件夹名称包含了模块名称、版本号等信息。使用命令 `yarn cache dir` 可以查看缓存数据的目录：
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/pic_58.jpg)
+![](http://image.newarea.site/20230719/pic_58.jpg)
 
 > `yarn` 默认使用 `prefer-online` 模式，即优先使用网络数据，如果网络数据请求失败，再去请求缓存数据。
 

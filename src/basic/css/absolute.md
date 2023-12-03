@@ -39,7 +39,7 @@
 </body>
 ```
 
-![图1](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230725/jueduidingwei01.png "图1")
+![图1](http://image.newarea.site/20230725/jueduidingwei01.png "图1")
 
 ## 2 display 类似 inline-block
 
@@ -66,7 +66,7 @@
 </body>
 ```
 
-![图2](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230725/jueduidingwei02.png "图2")
+![图2](http://image.newarea.site/20230725/jueduidingwei02.png "图2")
 
 ```html
 ···
@@ -91,7 +91,7 @@
 </body>
 ```
 
-![图3](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230725/jueduidingwei03.png "图3")
+![图3](http://image.newarea.site/20230725/jueduidingwei03.png "图3")
 
 通过与上例比较，可以看出position:absolute;和position:absolute;top:0;left:0的区别。仅仅position:absolute;的元素还是在其父元素内部，但加了top,left后就不一定还在父元素内了。
 
@@ -99,7 +99,7 @@
 
 父元素绝对定位了，子元素设置了浮动，子元素却把父元素撑开了，其实这就能理解为绝对定位和浮动其实是把元素飘到另一个“平行世界”，在这个世界或者说层面上，绝对定位与浮动的元素是实体的，是要互相碰撞的，所以会撑开。
 
-![图4](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230725/jueduidingwei04.png "图4")
+![图4](http://image.newarea.site/20230725/jueduidingwei04.png "图4")
 
 ## 4 子元素绝对定位，父元素会塌陷
 
@@ -121,7 +121,7 @@
 </body>
 ```
 
-![图5](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230725/jueduidingwei05.png "图5")
+![图5](http://image.newarea.site/20230725/jueduidingwei05.png "图5")
 
 ## 5 父子元素的边界问题
 
@@ -155,10 +155,10 @@
 </body>
 ```
 
-![图6](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230725/jueduidingwei06.png "图6")
+![图6](http://image.newarea.site/20230725/jueduidingwei06.png "图6")
 
 ## 6 布局
 
-![图7](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230725/jueduidingwei07.png "图7")
+![图7](http://image.newarea.site/20230725/jueduidingwei07.png "图7")
 
-![图8](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230725/jueduidingwei08.png "图8")
+![图8](http://image.newarea.site/20230725/jueduidingwei08.png "图8")

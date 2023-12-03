@@ -118,7 +118,7 @@
 </div>
 ```
 
-![01](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230728/01.png)
+![01](http://image.newarea.site/20230728/01.png)
 
 ↑ `flex: 1;`，则 `flex-basis: 0%;`，表示初始宽度为 0，且 `flex-grow` 为 1，所以两个项目将均分容器宽度。
 
@@ -129,7 +129,7 @@
 </div>
 ```
 
-![02](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230728/02.png)
+![02](http://image.newarea.site/20230728/02.png)
 
 ↑ `flex: auto;`，则 `flex-basis: auto;`，表示初始宽度为项目内容宽度，虽然`flex-grow` 为 1，两个项目放大宽度一样，但初始宽度不一样，所以最终宽度也不一样。
 
@@ -189,7 +189,7 @@
 - item-2 = auto + 120px = 220px
 - item-3 = 200px + 60px = 260px
 
-![01](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230725/01.png)
+![01](http://image.newarea.site/20230725/01.png)
 
 当 item-1 基准值取 `0%` 的时候，是把该项目视为零尺寸的，故即便声明其尺寸为 `140px`，也并没有什么用，形同虚设
 
@@ -231,7 +231,7 @@
 </body>
 ```
 
-![02](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230725/02.png)
+![02](http://image.newarea.site/20230725/02.png)
 
 当 div.item 样式：
 
@@ -244,4 +244,4 @@
 
 页面效果：
 
-![03](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230725/03.png)
+![03](http://image.newarea.site/20230725/03.png)

@@ -2,7 +2,7 @@
 
 拖放动作过程
 
-![01](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230729/01.png)
+![01](http://image.newarea.site/20230729/01.png)
 
 ## 1 被拖动元素
 
@@ -81,7 +81,7 @@
   .d1 {
     width: 40px;
     height: 40px;
-    background: url(".https://blog-1320825986.cos.ap-nanjing.myqcloud.com/error.png") no-repeat;
+    background: url(".http://image.newarea.site/error.png") no-repeat;
   }
   .d2 {
     width:350px;
@@ -102,7 +102,7 @@
 
     d1.ondragstart = function (ev) {
       console.log('dragstart')
-      ev.dataTransfer.setData('url1','.https://blog-1320825986.cos.ap-nanjing.myqcloud.com/error.png');
+      ev.dataTransfer.setData('url1','.http://image.newarea.site/error.png');
     }
     d1.ondrag = function () {
       console.log('drag')
@@ -131,9 +131,9 @@
 </body> 
 ```
 
-![02](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230729/02.png)
+![02](http://image.newarea.site/20230729/02.png)
 
-![03](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230729/03.png)
+![03](http://image.newarea.site/20230729/03.png)
 
 ## 4 dropEffect、effectAllowed
 
@@ -166,7 +166,7 @@
 ### 5.1 拖动图像
 
 ```html
-<img src=".https://blog-1320825986.cos.ap-nanjing.myqcloud.com/error.png" class="d1">
+<img src=".http://image.newarea.site/error.png" class="d1">
 <br>
 <input>
 
@@ -183,7 +183,7 @@
 </script>
 ```
 
-![04](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230729/04.png)
+![04](http://image.newarea.site/20230729/04.png)
 
 ### 5.2 拖动链接
 
@@ -205,7 +205,7 @@
 </script>
 ```
 
-![05](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230729/05.png)
+![05](http://image.newarea.site/20230729/05.png)
 
 ### 5.3 拖动选择的文本
 
@@ -226,7 +226,7 @@
 </script>
 ```
 
-![06](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230729/06.png)
+![06](http://image.newarea.site/20230729/06.png)
 
 ### 5.4 拖动元素
 
@@ -256,5 +256,5 @@
 </script>
 ```
 
-![07](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230729/07.png)
+![07](http://image.newarea.site/20230729/07.png)
 

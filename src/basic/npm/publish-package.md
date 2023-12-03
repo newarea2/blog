@@ -43,7 +43,7 @@ module.exports = '123456'
 
 注意：**执行 `npm version xxx` 命令前需要先 commit Git 当前工作目录，否则命令执行不成功**：
 
-![11](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230719/11.png)
+![11](http://image.newarea.site/20230719/11.png)
 
 执行完命令 `npm version xx` 后，会自动修改 package.json 至相应版本。并且会在 git 中打上相应的 tag
 

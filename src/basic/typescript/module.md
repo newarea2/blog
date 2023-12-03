@@ -71,9 +71,9 @@ define(["require", "exports", "./foo"], function (require, exports, add) {
 
 设置 "module": "exnext"，TS 报错，提示信息如下：
 
-![01](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230530/01.png)
+![01](http://image.newarea.site/20230530/01.png)
 
-![02](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230530/02.png)
+![02](http://image.newarea.site/20230530/02.png)
 
 ## export {}
 

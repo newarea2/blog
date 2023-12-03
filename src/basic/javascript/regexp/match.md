@@ -8,7 +8,7 @@ console.log(str.match(reg))
 
 打印结果
 
-![01](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230804/01.png)
+![01](http://image.newarea.site/20230804/01.png)
 
 ```js
 const reg = /([\u4e00-\u9fa5]{2,})\s?(\d+(\.\d+)?%)/
@@ -18,7 +18,7 @@ console.log(str.match(reg))
 
 打印结果
 
-![02](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230804/02.png)
+![02](http://image.newarea.site/20230804/02.png)
 
 可以看出，match 方法返回一个数组，数组第一项是正则表达式的完整匹配，和捕获组（正则表达式中括号匹配到的字符串）
 

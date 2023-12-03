@@ -88,7 +88,7 @@
 </html>
 ```
 
-![calc01](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230726/calc01.png "图1")
+![calc01](http://image.newarea.site/20230726/calc01.png "图1")
 
 水平垂直居中
 
@@ -128,7 +128,7 @@
 </html>
 ```
 
-![calc02](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230726/calc02.png "图2")
+![calc02](http://image.newarea.site/20230726/calc02.png "图2")
 
 ## 6 注意
 

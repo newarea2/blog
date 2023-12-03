@@ -14,11 +14,11 @@
 
 2.单击仓库下的 “Settings” 选项卡。
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230901/01.png)
+![](http://image.newarea.site/20230901/01.png)
 
 3.单击 “Pages”，选择 “Deploy from a branch”，并为站点内容选择分支、根目录，注意：根目录下必须存在 `index.html`、`index.md` 或 `README.md` 文件，GitHub Pages 将以此作为站点的入口文件。
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230901/02.png)
+![](http://image.newarea.site/20230901/02.png)
 
 4.站点的访问路径为 `https://<username>.github.io/<repository>`，其中 `username` 表示 GitHub 用户名，repository 表示仓库名。如果创建的仓库名称为 `<username>.github.io`，则站点访问路径为 `https://<username>.github.io`
 

@@ -1,1 +1,1 @@
-![06](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230714/06.png)
+![06](http://image.newarea.site/20230714/06.png)

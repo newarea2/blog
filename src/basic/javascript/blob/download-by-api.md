@@ -93,14 +93,14 @@ export const download = async (path) => {
 
 后端设置 Content-Disposition 方式不同，前端获取文件名方式也不一样：
 
-![04](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230802/04.png)
+![04](http://image.newarea.site/20230802/04.png)
 
 ```js
 const contentDisposition = response.headers['content-disposition']
 const fileName = decodeURIComponent(contentDisposition.split('=')[1])
 ```
 
-![05](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230802/05.png)
+![05](http://image.newarea.site/20230802/05.png)
 
 ```js
 const contentDisposition = response.headers['content-disposition']

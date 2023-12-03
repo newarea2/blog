@@ -12,7 +12,7 @@
 
 ### 1.2 develop
 
-![01](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230809/01.webp)
+![01](http://image.newarea.site/20230809/01.webp)
 
 不能直接在 master 分支上进行开发，否则很危险，develop 基于 master 分支创建而来，也不能直接在该分支上开发，当有新功能来了，可以从 master 分支创建 `feat-*` 分支，然后在`feat-*` 分支上进行开发，当开发完成后将 `feat-*` 分支 merge 到 develop 分支（此后，`feat-*` 分支可以删除也可以不删除）。
 
@@ -25,7 +25,7 @@ develop 不能直接合并到 master 分支，而是通过 release 分支合并�
 
 ### 2.1 feature
 
-![02](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230809/02.webp)
+![02](http://image.newarea.site/20230809/02.webp)
 
 开发新功能的分支, 基于 develop, 完成后 merge 回 develop。
 
@@ -33,7 +33,7 @@ develop 不能直接合并到 master 分支，而是通过 release 分支合并�
 
 ### 2.2 release
 
-![03](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230809/03.webp)
+![03](http://image.newarea.site/20230809/03.webp)
 
 基于 develop 分支，用来测试、修复 bug，完成后 merge 回 develop 和 master。同时在 master 分支上打个 tag 记住 release 版本号，删除Release分支（不删也行）
 
@@ -49,6 +49,6 @@ merge 回 master 分支的原因：一个新功能经过开发（在 feature 分
 
 ### 2.3 hotfix
 
-![04](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230809/04.webp)
+![04](http://image.newarea.site/20230809/04.webp)
 
 修复 master 上的问题，情况比较紧急，完成后 merge 回 master 和 develop

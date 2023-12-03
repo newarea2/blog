@@ -41,6 +41,35 @@ const sidebar: SidebarArrayOptions = [
       { text: '常用快捷键', link: 'shortcut-key' }
     ]
   },
+  {
+    text: 'Linux',
+    collapsible: true,
+    prefix: '/tool/linux',
+    children: [
+      { text: '用户', link: 'user' },
+      { text: '文件基本属性', link: 'file-attribute' },
+      { text: '文件及目录管理', link: 'file-directory' },
+      { text: '开机启动', link: 'startup-item' },
+      { text: '系统信息', link: 'system-infomation' },
+      { text: 'vim', link: 'vim' },
+      { text: '定时任务', link: 'crontab' },
+      { text: 'find', link: 'find' },
+      { text: '防火墙', link: 'firewall' },
+      { text: '进程、端口', link: 'process-port' },
+      { text: '打包、压缩', link: 'tar-zip' },
+      { text: '环境变量', link: 'env' }
+    ]
+  },
+  {
+    text: 'Nginx',
+    collapsible: true,
+    prefix: '/tool/nginx',
+    children: [
+      { text: '安装', link: 'install' },
+      { text: '简单使用', link: 'simple-use' },
+      { text: '指定', link: 'direction' }
+    ]
+  },
   { text: '备案', link: '/tool/beian' },
   { text: 'CPU', link: '/tool/cpu' },
   { text: 'Photoshop', link: '/tool/photoshop' },

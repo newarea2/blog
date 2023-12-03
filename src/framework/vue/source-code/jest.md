@@ -24,24 +24,24 @@ Jest 的测试代码是基于以下约定
 
 下面我们具体看一下 Vue3 源码的目录结构
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230525/25.jpg)
+![](http://image.newarea.site/20230525/25.jpg)
 
 其实逻辑代码和测试代码对应放置还是很方便的 我们再看看另外一个 reactive 这个包
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230525/26.jpg)
+![](http://image.newarea.site/20230525/26.jpg)
 
 ## 运行全量测试
 
 package.json 文件中已经配置好了 jest
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230525/27.jpg)
+![](http://image.newarea.site/20230525/27.jpg)
 
 ```
 npm run test
 复制代码
 ```
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230525/28.jpg)
+![](http://image.newarea.site/20230525/28.jpg)
 
 ## 覆盖率
 
@@ -52,7 +52,7 @@ npx jest --coverage
 复制代码
 ```
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230525/29.jpg)
+![](http://image.newarea.site/20230525/29.jpg)
 
 实际上跑覆盖率的时候是有错的 我们先不去管他 我们先解析一下这个报告怎么看，如果大家学过软件工程会知道一般从理论上讲覆盖率包括
 
@@ -72,7 +72,7 @@ npx jest --coverage
 
 比如我们看看 vue 的 index 这个测试
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230525/25.jpg)
+![](http://image.newarea.site/20230525/25.jpg)
 
 有两种方法进行单独测试
 
@@ -86,7 +86,7 @@ npx jest index
 复制代码
 ```
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230525/30.jpg)
+![](http://image.newarea.site/20230525/30.jpg)
 
 index.spec.ts
 
@@ -114,7 +114,7 @@ it('should support on-the-fly template compilation', () => {
 
 ## 响应式 Reactive 的单元测试
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230525/31.jpg)
+![](http://image.newarea.site/20230525/31.jpg)
 
 看一下每个包对应的测试代码都放在**tests**文件件中
 
@@ -123,6 +123,6 @@ it('should support on-the-fly template compilation', () => {
 复制代码
 ```
 
-![](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230525/32.jpg)
+![](http://image.newarea.site/20230525/32.jpg)
 
 转载自 [尝鲜 Vue3 之四：如何运行 Jest 单元测试](https://juejin.cn/post/6844903974512885767)

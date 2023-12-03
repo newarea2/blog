@@ -67,7 +67,7 @@ console.log(add(1, 2))
 
 此时 foo.ts 文件报错，且编辑器没有代码提示：
 
-![02](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230714/02.png)
+![02](http://image.newarea.site/20230714/02.png)
 
 为了消除报错，且可以使用代码提示功能，有如下方法：
 
@@ -77,9 +77,9 @@ console.log(add(1, 2))
 
 文件名必须是 bar.d.ts
 
-![03](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230714/03.png)
+![03](http://image.newarea.site/20230714/03.png)
 
-![04](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230714/04.png)
+![04](http://image.newarea.site/20230714/04.png)
 
 方法二：
 
@@ -87,7 +87,7 @@ console.log(add(1, 2))
 
 文件名没有要求（不用必须是 declarations），可以放到一个文件夹中
 
-![05](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230714/05.png)
+![05](http://image.newarea.site/20230714/05.png)
 
 方法一、二，编译后生产的 JS 文件：
 

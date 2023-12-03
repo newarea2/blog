@@ -163,6 +163,6 @@ request.send(formData)
 
 在使用postman调用接口时，如果请求方式时get，只能在Params下添加参数
 
-![01](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230724/01.png)
+![01](http://image.newarea.site/20230724/01.png)
 
 

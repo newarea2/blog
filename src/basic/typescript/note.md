@@ -109,7 +109,7 @@ TypeScript 只是在编译阶段对源码进行检测、编译，编译生成的
 
 3. 新增目录 ts、js 及源码文件 demo.ts、app.ts，
 
-  ![01](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230713/01.png)
+  ![01](http://image.newarea.site/20230713/01.png)
 
   - /ts：TypeScript源码文件存放的文件夹
 
@@ -146,7 +146,7 @@ TypeScript 只是在编译阶段对源码进行检测、编译，编译生成的
 
 4. 在项目根目录下执行`tsc`即可，将使用根目录下的配置文件进行编译，会在文件夹 js 下面生成相应的文件夹及文件，如下：
 
-  ![02](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230713/02.png)
+  ![02](http://image.newarea.site/20230713/02.png)
 
   demo.js
 
@@ -179,5 +179,5 @@ TypeScript 只是在编译阶段对源码进行检测、编译，编译生成的
 
 上述第4步，如果在根目录下执行的命令是`tsc ts/app.ts`，编译后的文件将放在相应源文件同目录下，js 文件夹下将不会有编译产物，如下，也就是说此时并没有使用配置文件
 
-![03](https://blog-1320825986.cos.ap-nanjing.myqcloud.com/20230713/03.png)
+![03](http://image.newarea.site/20230713/03.png)
 
