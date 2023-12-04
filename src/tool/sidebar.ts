@@ -24,9 +24,11 @@ const sidebar: SidebarArrayOptions = [
     children: [
       { text: '默认分支', link: 'default-branch' },
       { text: 'Github Actions', link: 'github-actions' },
+      { text: '同步到 Gitee', link: 'sync-github-to-gitee' },
+      { text: '部署静态文件', link: 'deploy-by-github-pages' },
+      { text: '上传项目到服务器', link: 'upload-to-tencent' },
       { text: 'Github Pages', link: 'github-pages' },
       { text: 'ssh', link: 'ssh' },
-      { text: '同步到 Gitee', link: 'sync-github-to-gitee' }
     ]
   },
   {
