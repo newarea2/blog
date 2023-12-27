@@ -50,5 +50,5 @@ export const enSidebar = sidebar({
 
   '/standardization/': standardization,
 
-  '/tool/': tool,
+  '/tool/': tool
 });
