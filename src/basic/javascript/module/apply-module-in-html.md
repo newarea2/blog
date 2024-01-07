@@ -2,7 +2,7 @@
 
 ## type="module"
 
-在 script 标签中写 js 代码，或者使用 src 引入 js 文件时，默认是不能使用 ES6 中的模块语法。除非在 script 标签上加 `type="module"` 属性，声明这个脚本是一个模块。
+在 `<script>` 标签中写 JavaScript  代码，或者使用 src 引入 JavaScript  文件时，默认不能使用 ES6 中的模块语法。除非在 `<script>` 标签上加 `type="module"`，声明这个脚本是一个 JavaScript  模块。
 
 假如有个示例项目 module-demo，文件结构：
 
@@ -39,13 +39,13 @@ index.html
   <title>Document</title>
 </head>
 <body>
-  <!-- 方法 1 ： 引入module.js，然后在script标签里面调用 -->
+  <!-- 方法 1 ： 引入 module.js，然后在 script 标签里面调用 -->
   <script type="module">
     import add from './module.js';
     console.log(add(1, 2))
   </script>
  
- <!-- 方法 2 ： 直接引入index.js，使用src引入 -->
+ <!-- 方法 2 ： 直接引入 index.js，使用src引入 -->
   <script type="module" src="./index.js"></script>
 </body>
 </html>
@@ -55,14 +55,16 @@ index.html
 
 模块文件的路径用于查找模块，有以下几种形式：
 
-- 相对于站点根目录（module-demo/）的相对路径，如：`import add from './module.js'`。
+- 相对于站点根目录（module-demo/）的相对路径，如：`import add from '/module.js'`。
 - 相对当前路径的相对路径，如 `import add from './module.js'`。
 - 绝对路径，如 `import add from 'https://example.com/module.js'`。
 - 任意文本，如果使用导入映射（import maps）
 
 ## 导入映射
 
-导入映射允许使用裸模块名称（如在 Node.js中）导入模块。一个 Html 文档有且只有一个导入映射，导入映射需要位于所有 `<script>` 元素之前。
+导入映射是一个 JSON 对象，在导入 JavaScript 模块时，用来告诉浏览器如何解析模块路径。
+
+导入映射允许使用裸模块名称（如在 Node.js 中）导入模块。一个 Html 文档有且只有一个导入映射，导入映射需要位于所有 `<script>` 元素之前。
 
 检测是否支持导入映射：
 
@@ -72,7 +74,7 @@ if (HTMLScriptElement.supports?.("importmap")) {
 }
 ```
 
-在 index.html 中添加导入映射：
+在 index.html 中添加导入映射。
 
 ```html
 <script type="importmap">
@@ -84,6 +86,8 @@ if (HTMLScriptElement.supports?.("importmap")) {
 </script>
 ```
 
-则可以使用如下方式使用模块 `module.js`：
+则可以使用如下方式导入模块 `module.js`。
 
-`import add from 'module'`
+```js
+import add from 'module'
+```
