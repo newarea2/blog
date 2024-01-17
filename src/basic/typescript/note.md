@@ -1,16 +1,35 @@
-刚开始可能觉得 TypeScritp 会很麻烦，会多写很多代码，这只是因为对TypeScript 掌握的还不够，在我看来掌握 TypeScript 至少具有以下好处：
+# TypeScript 基础
+
+刚开始可能觉得 TypeScritp 会很麻烦，会多写很多额外代码，这只是因为对 TypeScript 掌握的还不够，在我看来掌握 TypeScript 至少具有以下好处：
 
 - 减少、避免错误的发生
 - 使 IDE 具有代码提示功能
 - 各大框架都基本集成了 Typescript，不会 TypeScript，看框架源码会很吃力
 - 个人进阶必会技能，面试加分
 
-TypeScript 只是在编译阶段对源码进行检测、编译，编译生成的代码依旧是浏览器能够“读懂”的，不会包含 TypeScript 中的特性语法，如源码 `let name: string = 'Jack'`，输出`let name = 'Jack'`
+TypeScript 只是在编译阶段对源码进行检测、编译，编译生成的代码依旧是浏览器能够“读懂”的，不会包含 TypeScript 中的特性语法，如源码 `let name: string = 'Jack'`，编译后输出 `let name = 'Jack'`。
 
-**从头开始创建一个 TypeScript 项目**
+下面从头开始创建一个 TypeScript 项目。
 
-1. 新建文件夹test，进入其中，执行`npm init -y`
-2. 执行`tsc --init`，在项目根目录下自动生成配置文件 tsconfig.json:
+## 创建项目文件夹
+
+创建项目文件夹并初始化 package.json。
+
+```sh
+mkdir ts-demo
+cd ts-demo
+pnpm init
+```
+
+## 添加 TypeScript 配置文件
+
+创建默认配置文件：
+
+```sh
+npx tsc --init
+```
+
+tsconfig.json:
 
   ```json
   {
@@ -103,81 +122,94 @@ TypeScript 只是在编译阶段对源码进行检测、编译，编译生成的
   }
   ```
 
-当 `target` 设置为 `"es3"` 或 `es5`，`module` 默认使用 `"commonjs"`，当 `target` 为其他值时，`module` 默认`"es2015"`
+当 `target` 设置为 `es3` 或 `es5`，`module` 默认使用 `commonjs`，当 `target` 为其他值时，`module` 默认`es2015`。
 
-`module` 选项用来手动指定生成哪种模块化系统的代码，可设置的值有 `"none"`、`"commonjs"`、`"amd"`、`"udm"`、`"es2015"`（写成 `"es6"`、`"ES6"`、`"ES2015"`也可以）、`"es2020"`、`"ESNext"`
+`module` 选项用来手动指定生成哪种模块化系统的代码，可设置的值有 `none`、`commonjs`、`amd`、`udm`、`es2015`（写成 `es6`、`ES6`、`ES2015`也可以）、`es2020`、`ESNext`。
 
-3. 新增目录 ts、js 及源码文件 demo.ts、app.ts，
+## 添加源文件
 
-  ![01](http://image.newarea.site/20230713/01.png)
+![01](http://image.newarea.site/20230713/01.png)
 
-  - /ts：TypeScript源码文件存放的文件夹
+- /ts：TypeScript 源码文件存放的文件夹
 
-  - /js：编译之后生成的JavaScript文件存放的文件夹
+- /js：编译之后生成的 JavaScript 文件存放的文件夹
 
-  demo.ts
+::: code-tabs
 
-  ```ts
-  class Demo {
-    a: number;
-    b: number;
+@tab demo.ts
+  
+```ts
+class Demo {
+  a: number;
+  b: number;
 
-    constructor(a: number, b: number) {
-      this.a = a
-      this.b = b
-    }
-
-    sum(): number {
-      return this.a + this.b
-    }
+  constructor(a: number, b: number) {
+    this.a = a
+    this.b = b
   }
 
-  export { Demo }
-  ```
+  sum(): number {
+    return this.a + this.b
+  }
+}
 
-  app.ts
+export { Demo }
+```
 
-  ```ts
-  import { Demo } from './models/demo'
+@tab app.ts
 
-  const demo = new Demo(1, 2)
-  console.log(demo.sum())
-  ```
+```ts
+import { Demo } from './models/demo'
 
-4. 在项目根目录下执行`tsc`即可，将使用根目录下的配置文件进行编译，会在文件夹 js 下面生成相应的文件夹及文件，如下：
+const demo = new Demo(1, 2)
+console.log(demo.sum())
+```
 
-  ![02](http://image.newarea.site/20230713/02.png)
+:::
 
-  demo.js
+## 编译源文件
 
-  ```js
-  "use strict";
-  Object.defineProperty(exports, "__esModule", { value: true });
-  exports.Demo = void 0;
-  var Demo = (function () {
-      function Demo(a, b) {
-          this.a = a;
-          this.b = b;
-      }
-      Demo.prototype.sum = function () {
-          return this.a + this.b;
-      };
-      return Demo;
-  }());
-  exports.Demo = Demo;
-  ```
+编译器将按照配置文件编译源文件，会在文件夹 js 下面生成相应的文件夹及文件：
 
-  app.js
+```sh
+npx tsc
+```
 
-  ```js
-  "use strict";
-  Object.defineProperty(exports, "__esModule", { value: true });
-  var demo_1 = require("./models/demo");
-  var demo = new demo_1.Demo(1, 2);
-  console.log(demo.sum());
-  ```
+![02](http://image.newarea.site/20230713/02.png)
 
-上述第4步，如果在根目录下执行的命令是`tsc ts/app.ts`，编译后的文件将放在相应源文件同目录下，js 文件夹下将不会有编译产物，如下，也就是说此时并没有使用配置文件
+::: code-tabs
+
+@tab demo.js
+
+```js
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Demo = void 0;
+var Demo = (function () {
+    function Demo(a, b) {
+        this.a = a;
+        this.b = b;
+    }
+    Demo.prototype.sum = function () {
+        return this.a + this.b;
+    };
+    return Demo;
+}());
+exports.Demo = Demo;
+```
+
+@ app.js
+
+```js
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var demo_1 = require("./models/demo");
+var demo = new demo_1.Demo(1, 2);
+console.log(demo.sum());
+```
+
+:::
+
+如果在根目录下执行的命令是`tsc ts/app.ts`，编译后的文件将放在相应源文件同目录下，js 文件夹下将不会有编译产物，也就是说此时并没有使用配置文件
 
 ![03](http://image.newarea.site/20230713/03.png)
-
