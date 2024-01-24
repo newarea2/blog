@@ -151,3 +151,11 @@ ctrl+H , 勾选正则表达式，查找`^\s*(?=\r?$)\n`，并全部替换
 设置前：
 
 ![30](http://image.newarea.site/20230805/30.png)
+
+## Iconify IntelliSense
+
+取消自动隐藏 icon 名称
+
+![](http://image.newarea.site/2024-01-04-17-47-09.png)
+
+![](http://image.newarea.site/2024-01-04-17-49-30.png)
