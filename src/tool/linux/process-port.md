@@ -26,7 +26,7 @@
 - TIME：该进程占用CPU时间。
 - COMMAND：启动该进程的命令的名称。
 
-![](http://image.newarea.site/2023-12-02-22-57-15.png)
+![](https://image.newarea.site/2023-12-02-22-57-15.png)
 
 ## 查看端口占用情况
 
@@ -52,4 +52,4 @@
 - State：表示连接状态，例如 ESTABLISHED、LISTENING 等。
 - PID/Program name：显示与连接相关的进程的 PID 及程序名称。
 
-![](http://image.newarea.site/2023-12-02-23-14-53.png)
+![](https://image.newarea.site/2023-12-02-23-14-53.png)

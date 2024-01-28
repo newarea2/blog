@@ -1,6 +1,6 @@
 # 用户
 
-![](http://image.newarea.site/2023-12-02-23-16-08.png)
+![](https://image.newarea.site/2023-12-02-23-16-08.png)
 
 `]`右侧的`#`、`$`用于区分用户：
 
@@ -20,11 +20,11 @@ pwd 是 Print Working Directory 的缩写，也就是显示目前所在目录的
 
 - 显示出确实的路径，而非使用连结 (link) 路径。
 
-![](http://image.newarea.site/2023-12-02-23-16-09.png)
+![](https://image.newarea.site/2023-12-02-23-16-09.png)
 
-![](http://image.newarea.site/2023-12-02-23-16-10.png)
+![](https://image.newarea.site/2023-12-02-23-16-10.png)
 
-在WinSCP中带![](http://image.newarea.site/2023-12-02-23-16-11.png)图标的目录表示连结 (link) 路径，如/bin目录实际指向`/usr/bin`目录，即在根目录下放一个常用目录的快捷引用目录。
+在WinSCP中带![](https://image.newarea.site/2023-12-02-23-16-11.png)图标的目录表示连结 (link) 路径，如/bin目录实际指向`/usr/bin`目录，即在根目录下放一个常用目录的快捷引用目录。
 
 ## 1 登录主机
 

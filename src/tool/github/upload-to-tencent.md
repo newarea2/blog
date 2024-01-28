@@ -67,4 +67,4 @@ jobs:
 
 上述工作流用到一些 secrets:
 
-![](http://image.newarea.site/2023-12-05-01-21-37.png)
+![](https://image.newarea.site/2023-12-05-01-21-37.png)

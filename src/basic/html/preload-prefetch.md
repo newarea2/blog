@@ -6,7 +6,7 @@
 一、从一个实例开始
 =========
 
-![](http://image.newarea.site/20230722/01.gif)
+![](https://image.newarea.site/20230722/01.gif)
 
 如上图所示，我们开发了一个简单的收银台，支付过程中可以展开优惠券列表选择相应的券。从动图可以看到，列表第一次展开时，优惠券背景有一个逐渐显示的过程，体验上不是很好。
 
@@ -59,13 +59,13 @@ prefetch(链接预取）是一种浏览器机制，其利用浏览器空闲时�
 
 查看现在优惠券列表的加载效果。
 
-![](http://image.newarea.site/20230722/02.gif)
+![](https://image.newarea.site/20230722/02.gif)
 
 果然，成功达成了我们期望的效果。那么浏览器是如何做的呢？我们打开Chrome的Network面板一探究竟：
 
-![](http://image.newarea.site/20230722/03.jpg)
+![](https://image.newarea.site/20230722/03.jpg)
 
-![](http://image.newarea.site/20230722/04.jpg)
+![](https://image.newarea.site/20230722/04.jpg)
 
 可以看到，在首屏的请求列表中已经出现了优惠券背景图ticket_bg.png的加载请求，请求本身看起来和普通请求没什么不同；展开优惠券列表后，network中增加了一次新的ticket_bg.png访问请求，我们很快发现，这个请求的status虽然也是200，但有一个特殊的标记---prefetch cache，表明这次请求的资源来自prefetch缓存。这个表现验证了上文中prefetch的定义，即浏览器在空闲时间预先加载资源，真正使用时直接从浏览器缓存中快速获取。
 
@@ -78,7 +78,7 @@ prefetch(链接预取）是一种浏览器机制，其利用浏览器空闲时�
 
 简单来说，就是通过标签显式声明一个高优先级资源，强制浏览器提前请求资源，同时不阻塞文档正常onload。我们同样用一个实际案例进行详细介绍。
 
-![](http://image.newarea.site/20230722/05.gif)
+![](https://image.newarea.site/20230722/05.gif)
 
 上图是我们开发的另外一个收银台，出于本地化的考虑，设计上使用了自定义字体。开发完成后我们发现，页面首次加载时文字会出现短暂的字体样式闪动（FOUT，Flash of Unstyled Text），在网络情况较差时比较明显（如动图所示）。究其原因，是字体文件由css引入，在css解析后才会进行加载，加载完成之前浏览器只能使用降级字体。也就是说，字体文件加载的时机太迟，需要告诉浏览器提前进行加载，这恰恰是preload的用武之地。
 
@@ -96,17 +96,17 @@ prefetch(链接预取）是一种浏览器机制，其利用浏览器空闲时�
 
 再次查看页面首次加载的效果：
 
-![](http://image.newarea.site/20230722/06.gif)
+![](https://image.newarea.site/20230722/06.gif)
 
 字体样式闪动的现象没有了！我们对比下使用preload前后的network面板。
 
 使用前：
 
-![](http://image.newarea.site/20230722/07.jpg)
+![](https://image.newarea.site/20230722/07.jpg)
 
 使用后：
 
-![](http://image.newarea.site/20230722/08.jpg)
+![](https://image.newarea.site/20230722/08.jpg)
 
 可以发现字体文件的加载时机明显提前了，在浏览器接收到html后很快就进行了加载。
 
@@ -227,7 +227,7 @@ import(/* webpackPreload: true */ 'AsyncModule');
 
 然而我们在Chrome浏览器（版本号80）中进行测试，结果却并非如此。将服务器的缓存策略设置为no-store，观察下资源加载情况。
 
-![](http://image.newarea.site/20230722/09.jpg)
+![](https://image.newarea.site/20230722/09.jpg)
 
 可以发现ticket_bg.png第二次加载并未从本地缓存获取，仍然是从服务器加载。因此，如果要使用prefetch，相应的资源必须做好合理的缓存控制。
 
@@ -235,8 +235,8 @@ import(/* webpackPreload: true */ 'AsyncModule');
 
 8、最后我们来看下preload和prefetch的浏览器兼容性。
 
-![](http://image.newarea.site/20230722/10.jpg)
+![](https://image.newarea.site/20230722/10.jpg)
 
-![](http://image.newarea.site/20230722/11.jpg)
+![](https://image.newarea.site/20230722/11.jpg)
 
 可以看到，两者的兼容性目前都还不是太好。好在不支持preload和prefetch的浏览器会自动忽略它，因此可以将它们作为一种渐进增强功能，优化我们页面的资源加载，提升性能和用户体验。

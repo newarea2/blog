@@ -264,7 +264,7 @@ export { CreatePlaylistRequestParams, createPlaylist } from "./api";
 
 报错：
 
-![](http://image.newarea.site/20230713/11.png)
+![](https://image.newarea.site/20230713/11.png)
 
 一些理解：
 

@@ -92,6 +92,6 @@ permissions:
 
 项目 Settings -> Actions -> General -> Workflow permissions -> 选择 `Read and write permissions`
 
-![](http://image.newarea.site/2023-12-05-01-11-08.png)
+![](https://image.newarea.site/2023-12-05-01-11-08.png)
 
 上面的工作流配置使用了方式一。

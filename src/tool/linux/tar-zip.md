@@ -99,7 +99,7 @@ tar命令既可以用于打包，也可以用于解包
 
 对比hello.tar.gz和hello.tar，可以发现，打包压缩比单纯打包可以大幅减少最终的体积大小。通过hello.tar.zip和hello.tar.gz，可以发现，打包压缩操作其实就是先打包再进行压缩。
 
-![](http://image.newarea.site/2023-12-02-23-16-02.png)
+![](https://image.newarea.site/2023-12-02-23-16-02.png)
 
 ## 压缩
 
@@ -117,7 +117,7 @@ tar命令既可以用于打包，也可以用于解包
 
 `zip test.zip test01.txt test02.txt` 同时压缩多个文件
 
-![](http://image.newarea.site/2023-12-02-23-16-03.png)
+![](https://image.newarea.site/2023-12-02-23-16-03.png)
 
 ### unzip
 
@@ -127,4 +127,4 @@ tar命令既可以用于打包，也可以用于解包
 
 解压上述产生的压缩包test.zip
 
-![](http://image.newarea.site/2023-12-02-23-16-04.png)
+![](https://image.newarea.site/2023-12-02-23-16-04.png)

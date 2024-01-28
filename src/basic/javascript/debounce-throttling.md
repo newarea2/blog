@@ -8,7 +8,7 @@
 
 如下图，持续触发 scroll 事件时，并不执行 handle 函数，当 1000 毫秒内没有触发 scroll 事件时，才会延时触发 scroll 事件。
 
-![](http://image.newarea.site/2024-01-07-22-07-01.jpg)
+![](https://image.newarea.site/2024-01-07-22-07-01.jpg)
 
 ### 应用场景
 
@@ -95,7 +95,7 @@ inputEl.addEventListener('input', (evt) => {
 
 如下图，持续触发 scroll 事件时，并不立即执行 handle 函数，每隔 1000 毫秒才会执行一次 handle 函数。
 
-![](http://image.newarea.site/2024-01-07-22-07-02.jpg)
+![](https://image.newarea.site/2024-01-07-22-07-02.jpg)
 
 ### 应用场景
 

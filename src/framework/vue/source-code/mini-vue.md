@@ -417,7 +417,7 @@ Dom中节点众多，直接查询和更新Dom性能较差。
 
 > [vue-next-template-explorer.netlify.app/](https://link.juejin.cn/?target=https%3A%2F%2Fvue-next-template-explorer.netlify.app%2F "https://vue-next-template-explorer.netlify.app/")
 
-![](http://image.newarea.site/20230525/18.png)
+![](https://image.newarea.site/20230525/18.png)
 
 -   RenderPhase ： 渲染模块使用渲染函数根据初始化数据生成虚拟Dom
 -   MountPhase ： 利用虚拟Dom创建视图页面Html

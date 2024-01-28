@@ -125,7 +125,7 @@ server {
 
 如在浏览器请求地址 `http://49.234.187.153/test.html`，匹配第一个location，`root地址 + 请求地址pathname` 构成最终请求文件在服务器中的地址，即/root/workspace/data/test.html
 
-![](http://image.newarea.site/2023-12-04-00-16-03.png)
+![](https://image.newarea.site/2023-12-04-00-16-03.png)
 
 如在浏览器请求地址 `http://49.234.187.153/images/image1.png`，虽然两个location都匹配，但第二个匹配得更精确点（或者说 location 指令值更长）。根据 `root地址 + 请求地址pathname` 可以，服务器回去找/root/workspace/data/images/image1.png。
 

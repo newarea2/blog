@@ -10,7 +10,7 @@
 
 - `cat /proc/cpuinfo | grep 'model name' | uniq` 查看CPU型号
 
-![](http://image.newarea.site/2023-12-02-23-16-06.png)
+![](https://image.newarea.site/2023-12-02-23-16-06.png)
 
 总结：1个1核CPU，型号Intel(R) Xeon(R) Gold 6278C CPU @ 2.60GHz
 
@@ -27,4 +27,4 @@
 
 `df -hl`，以下是查看刚购买的云服务器磁盘剩余空间，可以发现Linux操作系统占用的空间才几G而已，并不大
 
-![](http://image.newarea.site/2023-12-02-23-16-07.png)
+![](https://image.newarea.site/2023-12-02-23-16-07.png)

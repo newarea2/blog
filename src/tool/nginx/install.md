@@ -42,7 +42,7 @@ nginx -t
 
 可以通过安装包的方式和yum的方式来安装Nginx，这里介绍基于Yum的方式安装Nginx。[链接](http://nginx.org/en/docs/install.html)
 
-![](http://image.newarea.site/2023-12-04-00-16-01.png)
+![](https://image.newarea.site/2023-12-04-00-16-01.png)
 
 查看Nginx是否在可安装软件清单列表中
 
@@ -50,7 +50,7 @@ nginx -t
 
 如果出现以下内容说明yum源是存在的。
 
-![](http://image.newarea.site/2023-12-04-00-16-02.png)
+![](https://image.newarea.site/2023-12-04-00-16-02.png)
 
 如果当前yum源中没有Nginx，那么需要新增一个yum源
 

@@ -11,7 +11,7 @@
 
 查看当前的环境变量。
 
-![](http://image.newarea.site/2023-12-03-22-09-12.png)
+![](https://image.newarea.site/2023-12-03-22-09-12.png)
 
 ### echo
 
@@ -32,7 +32,7 @@ export PATH=$PATH:[命令的目录]
 
 **上面的设置只是临时的，当重新打开一个终端，环境变量会被恢复初始状态**。如果想要永久生效，应该编辑用户主目录下 `.bash_profile` 文件，修改其中的 `PATH` 变量值：
 
-![](http://image.newarea.site/2023-12-03-22-31-21.png)
+![](https://image.newarea.site/2023-12-03-22-31-21.png)
 
 ## 常用环境变量
 

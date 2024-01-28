@@ -2,7 +2,7 @@
 
 [Linux 文件基本属性](https://www.runoob.com/linux/linux-file-attr-permission.html)
 
-![](http://image.newarea.site/2023-12-02-23-16-05.png)
+![](https://image.newarea.site/2023-12-02-23-16-05.png)
 
 每部分含义：
 

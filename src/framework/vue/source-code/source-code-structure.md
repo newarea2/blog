@@ -3,7 +3,7 @@
 代码结构
 ----
 
-![](http://image.newarea.site/20230528/25.png)
+![](https://image.newarea.site/20230528/25.png)
 
 源码位置是在package文件件内，实际上源码主要分为两部分，编译器和运行时环境。
 
@@ -39,19 +39,19 @@
     复制代码
     ```
 
-    ![](http://image.newarea.site/20230528/26.png)
+    ![](https://image.newarea.site/20230528/26.png)
 
-    ![](http://image.newarea.site/20230528/27.png)
+    ![](https://image.newarea.site/20230528/27.png)
 
     然后打开index.html
 
-    ![](http://image.newarea.site/20230528/28.png)
+    ![](https://image.newarea.site/20230528/28.png)
 
 -   vue 代码入口
 
     > 整合编译器和运行时
 
-    ![](http://image.newarea.site/20230528/29.png)
+    ![](https://image.newarea.site/20230528/29.png)
 
 -   server-renderer 服务器端渲染（TODO）
 
