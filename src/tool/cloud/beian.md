@@ -6,25 +6,25 @@
 
 新注册域名在注册前需关联已完成实名审核的[域名信息模板](https://console.cloud.tencent.com/domain/template/list)：
 
-![](https://image.newarea.site/2023-11-14-23-04-52.png)
+![](http://image.newarea.site/2023-11-14-23-04-52.png)
 
 域名注册成功后通过[云解析 DNS](https://console.cloud.tencent.com/cns/detail/newarea.site/records)添加域名解析记录，即将域名指向一个 IP 地址（A 记录）、另一个域名（CNAME 记录）等：
 
-![](https://image.newarea.site/2023-11-14-23-25-08.png)
+![](http://image.newarea.site/2023-11-14-23-25-08.png)
 
-![](https://image.newarea.site/2023-11-14-23-32-57.png)
+![](http://image.newarea.site/2023-11-14-23-32-57.png)
 
 ### 如何检查解析是否生效？
 
 在[域名检查工具](https://tool.dnspod.cn/)中输入要检查的域名，即可查看是否生效：
 
-![](https://image.newarea.site/2023-11-15-00-02-27.png)
+![](http://image.newarea.site/2023-11-15-00-02-27.png)
 
 ### 注意
 
 - 修改 DNS 服务器需要0 - 48小时的全球生效时间，如果发现某些地方记录没有生效，并且修改 DNS 的时间还不到48小时，请耐心等待。
 - 当域名还未 ICP 备案，通过域名访问应用会被拦截，提示尽快备案。
-  ![](https://image.newarea.site/2023-11-15-00-25-00.png)
+  ![](http://image.newarea.site/2023-11-15-00-25-00.png)
 - 当域名指向的是一个 IP 地址，访问应用时记得加上端口号（如果端口号是 80，可以不加）。
 
 ## 服务器
@@ -33,7 +33,7 @@
 
 如果你的腾讯云账号内无满足备案条件的云服务器或轻量应用服务器，你可以使用其他腾讯云账号内满足备案条件的云服务器或轻量应用服务器生成的授权码进行备案，同一个备案授权码只能备案一个网站或 APP。
 
-![](https://image.newarea.site/2023-11-15-00-18-00.png)
+![](http://image.newarea.site/2023-11-15-00-18-00.png)
 
 所以个人账号无法生成备案授权码，只能通过购买符合条件的云服务器或轻量应用服务器进行备案。
 
@@ -47,7 +47,7 @@
 
 当你填完信息、上传材料提交腾讯云初审，自信满满，以为肯定没问题，结果审核出来一堆问题，下面是我第一提交后的初审结果：
 
-![](https://image.newarea.site/2023-11-15-00-41-18.png)
+![](http://image.newarea.site/2023-11-15-00-41-18.png)
 
 连手印要求都那么高，简直有点变态了。其中因为服务备注不详细被拒了两次，改了又改，最后内容如下才通过：
 
@@ -63,16 +63,16 @@ ICP 备案通过后会收到一个备案号，类似这样 “粤ICP备202312666
 
 ICP 备案后还要公安备案。之前一直以为只有 ICP 备案，没想到还有公安备案，备个案真的太繁琐了。
 
-![](https://image.newarea.site/2023-11-15-01-13-09.png)
+![](http://image.newarea.site/2023-11-15-01-13-09.png)
 
 需要注意的是，公安备案相对没有 ICP 备案那么便捷。ICP 备案大多由服务器接入商协助，但公安备案需自行完成。
 
 公安备案前需要将网站建设好，并将 ICP 备案号标识于网站底部，否则公安备案审核不通过：
 
-![](https://image.newarea.site/2023-12-02-20-58-06.png)
+![](http://image.newarea.site/2023-12-02-20-58-06.png)
 
 主办单位或负责人信息要与域名证书持有者信息一致：
 
-![](https://image.newarea.site/2023-12-08-21-27-52.png)
+![](http://image.newarea.site/2023-12-08-21-27-52.png)
 
 详细说明可参考[公安备案流程](https://cloud.tencent.com/document/product/243/19142)。

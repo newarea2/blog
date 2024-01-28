@@ -29,6 +29,7 @@ const sidebar: SidebarArrayOptions = [
       { text: '上传项目到服务器', link: 'upload-to-tencent' },
       { text: 'Github Pages', link: 'github-pages' },
       { text: 'ssh', link: 'ssh' },
+      { text: '同步家里和公司代码', link: 'sync-home-company-codes' },
     ]
   },
   {
@@ -69,15 +70,28 @@ const sidebar: SidebarArrayOptions = [
     children: [
       { text: '安装', link: 'install' },
       { text: '简单使用', link: 'simple-use' },
-      { text: '指定', link: 'direction' }
+      { text: '指令', link: 'directive' }
     ]
   },
-  { text: '备案', link: '/tool/beian' },
+  {
+    text: '云服务',
+    collapsible: true,
+    prefix: '/tool/cloud',
+    children: [
+      { text: '域名', link: 'domain' },
+      { text: '备案', link: 'beian' },
+      { text: 'DNS 域名系统', link: 'dns' },
+      { text: '对象存储', link: 'cos' },
+      { text: 'SSL 证书', link: 'ssl' },
+      { text: 'CDN 内容分发网络', link: 'cdn' },
+    ]
+  },
   { text: 'CPU', link: '/tool/cpu' },
   { text: 'Photoshop', link: '/tool/photoshop' },
   { text: 'Stackblitz', link: '/tool/stackblitz' },
   { text: 'Xshell', link: '/tool/xshell' },
   { text: 'Xftp', link: '/tool/xftp' },
+  { text: '加密', link: '/tool/encrypt' },
 ]
 
 export default sidebar
