@@ -65,7 +65,7 @@ const Hello = h('span', 'hello')
 </script>
 ```
 
-![17](http://image.newarea.site/20230828/17.png)
+![17](https://image.newarea.site/20230828/17.png)
 
 #### 1.3.2 定义作用域插槽
 
@@ -176,7 +176,7 @@ index.vue
 </script>
 ```
 
-![16](http://image.newarea.site/20230828/16.png)
+![16](https://image.newarea.site/20230828/16.png)
 
 
 ## 2 使用场景

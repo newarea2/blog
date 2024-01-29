@@ -24,13 +24,13 @@ process 是 Node 中的一个全局变量，可以直接使用，无需使用 re
 
 打开一个 cmd 窗口，
 
-![01](http://image.newarea.site/20230719/16.png)
+![01](https://image.newarea.site/20230719/16.png)
 
-![02](http://image.newarea.site/20230719/17.png)
+![02](https://image.newarea.site/20230719/17.png)
 
-![04](http://image.newarea.site/20230719/19.png)
+![04](https://image.newarea.site/20230719/19.png)
 
-![05](http://image.newarea.site/20230719/20.png)
+![05](https://image.newarea.site/20230719/20.png)
 
 另外再打开一个 cmd 窗口，查看环境变量 HELLO，发现并不存在，说明上述设置方式是**临时的**。
 
@@ -42,7 +42,7 @@ console.log(process.env)
 
 执行 `node test.js`，打印的对象中包含属性 HELLO。
 
-![03](http://image.newarea.site/20230719/18.png)
+![03](https://image.newarea.site/20230719/18.png)
 
 #### 2.1.2 永久配置
 

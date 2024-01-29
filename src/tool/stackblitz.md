@@ -31,9 +31,9 @@ StackBlitz 提供的 WebContainers 允许您创建全栈 Node.js 环境，该环
 
 可以代码存储、编辑、运行，可以和 GitHub 仓库关联，从 GitHub 拉取最新代码，将修改后代码提交到 GitHub。
 
-![01](http://image.newarea.site/20230805/01.png)
+![01](https://image.newarea.site/20230805/01.png)
 
-![02](http://image.newarea.site/20230805/02.png)
+![02](https://image.newarea.site/20230805/02.png)
 
 - 操作1：将本地代码提交到 GitHub 仓库
 - 操作2：从 GitHub 仓库拉取代码到 StackBlitz
@@ -44,12 +44,12 @@ StackBlitz 提供的 WebContainers 允许您创建全栈 Node.js 环境，该环
 
 选择一个内置模板 ↓
 
-![03](http://image.newarea.site/20230805/03.png)
+![03](https://image.newarea.site/20230805/03.png)
 
 关联一个新的 GitHub 项目 ↓
 
-![04](http://image.newarea.site/20230805/04.png)
-![05](http://image.newarea.site/20230805/05.png)
+![04](https://image.newarea.site/20230805/04.png)
+![05](https://image.newarea.site/20230805/05.png)
 
 ### 3.2 以一个 GitHub 项目为模板创建 Stackblitz 项目
 
@@ -59,23 +59,23 @@ StackBlitz 提供的 WebContainers 允许您创建全栈 Node.js 环境，该环
 
 浏览器输入 `https://stackblitz.com/github/stormzhangbx/vite-demo`，进入如下界面 ↓
 
-![06](http://image.newarea.site/20230805/06.png)
+![06](https://image.newarea.site/20230805/06.png)
 
 点击按钮Fork，此时 StackBlitz 仪表盘页面项目列表会新增一个项目 `Stormzhangbx - Vite Demo`  ↓
 
-![07](http://image.newarea.site/20230805/07.png)
+![07](https://image.newarea.site/20230805/07.png)
 
 关联自己 GitHub 项目  ↓
 
-![08](http://image.newarea.site/20230805/08.png)
+![08](https://image.newarea.site/20230805/08.png)
 
 注意，此时选择 `import an existing repository` ↓
 
-![09](http://image.newarea.site/20230805/09.png)
+![09](https://image.newarea.site/20230805/09.png)
 
-![10](http://image.newarea.site/20230805/10.png)
+![10](https://image.newarea.site/20230805/10.png)
 
-![11](http://image.newarea.site/20230805/11.png)
+![11](https://image.newarea.site/20230805/11.png)
 
 #### 非自己的 GitHub 项目
 

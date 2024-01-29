@@ -26,7 +26,7 @@ $-radius: 3px;
 
 如果在文件夹中写入 index.scss 或 _index.scss，导入时的 URL 只写 index.scss 或 _index.scss 所在的目录也是可以的。
 
-![02](http://image.newarea.site/20230727/02.png)
+![02](https://image.newarea.site/20230727/02.png)
 
 ```scss
 // test.scss
@@ -39,7 +39,7 @@ $-radius: 3px;
 
 如果编辑器开启了自动编译功能，正常情况下会自动编译 Sass 文件，而以 `_` 开头的 Sass 文件不会被编译。
 
-![01](http://image.newarea.site/20230727/01.png)
+![01](https://image.newarea.site/20230727/01.png)
 
 ## 4 加载成员
 

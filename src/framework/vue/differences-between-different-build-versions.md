@@ -10,7 +10,7 @@
 
 Vue3 各构建版本：
 
-![10](http://image.newarea.site/20230828/10.png)
+![10](https://image.newarea.site/20230828/10.png)
 
 1. 在浏览器端通过`<script src="...">`使用 Vue 的完整版本。一个文件包含全部内容
 2. 在浏览器端通过`<script src="...">`使用 Vue 的运行时版本。一个文件包含全部运行时内容
@@ -55,7 +55,7 @@ Vue3 各构建版本：
 
 “解析模板字符串”，其实就是做下面这个操作
 
-![12](http://image.newarea.site/20230828/12.png)
+![12](https://image.newarea.site/20230828/12.png)
 
 上述 Vue3 所有构建版本中没有单独提供只含编译器的版本。
 
@@ -82,16 +82,16 @@ Vue3 各构建版本：
 
 运行时版本体积仅为完整版本体积的68.5%，也就是说，相比之下，运行时版本体积减少了31.5%
 
-![13](http://image.newarea.site/20230828/13.png)
+![13](https://image.newarea.site/20230828/13.png)
 
 为什么要将 Vue 拆分成编译器和运行时两部分？
 
 Vue2 各构建版本：
 
-![11](http://image.newarea.site/20230828/11.png)
+![11](https://image.newarea.site/20230828/11.png)
 
 Vue2 [对不同构建版本的解释](https://cn.vuejs.org/v2/guide/installation.html#%E5%AF%B9%E4%B8%8D%E5%90%8C%E6%9E%84%E5%BB%BA%E7%89%88%E6%9C%AC%E7%9A%84%E8%A7%A3%E9%87%8A)
 
 新建一个 node 项目，仅安装 Vue（`npm i vue@next`）
 
-![14](http://image.newarea.site/20230828/14.png)
+![14](https://image.newarea.site/20230828/14.png)

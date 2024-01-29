@@ -11,7 +11,7 @@
 
 故a、h标签在common.css文件中会被单独列出
 在w3shool学习css时，在介绍每个样式的基本信息时，都有继承性的说明，反映出继承性还是很重要的。如下图：
-![图1](http://image.newarea.site/20230725/css三大特性01.png "图1")
+![图1](https://image.newarea.site/20230725/css三大特性01.png "图1")
 
 ```html
 <!DOCTYPE html>

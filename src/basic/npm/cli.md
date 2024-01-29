@@ -21,7 +21,7 @@ module.exports = 'test npm link'
 ```
 
 若要执行这个js文件，必须在命令行或者git bash中进入项目根目录然后执行`node ./index.js`，执行`npm link`可将项目npm-link-demo链接到`C:\Users\zbx\AppData\Roaming\npm\node_modules\npm-link-demo`
-![node](http://image.newarea.site/20230720/node2.png)
+![node](https://image.newarea.site/20230720/node2.png)
 
 现在在其他项目中执行`npm link npm-link-demo`，然后就可以在该项目index.js下引入npm-link-demo，如下。这里可以把`npm link npm-link-demo`的作用理解为`npm i npm-link-demo -S`
 
@@ -53,6 +53,6 @@ package.json里面，添加一个bin字段：
 ```
 
 执行`npm link`
-![node](http://image.newarea.site/20230720/node1.png)
+![node](https://image.newarea.site/20230720/node1.png)
 
 现在在任意位置打开命令行或者git bash，执行`hello-cli`，会输出"hello world"

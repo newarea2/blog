@@ -4,9 +4,9 @@
 
 访问静态文件服务器
 
-![08](http://image.newarea.site/20230831/08.png)
+![08](https://image.newarea.site/20230831/08.png)
 
-![09](http://image.newarea.site/20230831/09.png)
+![09](https://image.newarea.site/20230831/09.png)
 
 将文件拖动到浏览器
 
@@ -25,7 +25,7 @@ zip 压缩包、word、excel、jar包
 
 访问静态文件服务器
 
-![07](http://image.newarea.site/20230831/07.png)
+![07](https://image.newarea.site/20230831/07.png)
 
 将文件拖动到浏览器
 

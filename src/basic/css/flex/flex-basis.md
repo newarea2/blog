@@ -33,7 +33,7 @@ content –> width –> flex-basis (limted by max|min-width)
 }
 ```
 
-![01](http://image.newarea.site/20230725/01.webp)
+![01](https://image.newarea.site/20230725/01.webp)
 
 ## 设置宽度(Width)
 
@@ -46,11 +46,11 @@ content –> width –> flex-basis (limted by max|min-width)
 }
 ```
 
-![02](http://image.newarea.site/20230725/02.webp)
+![02](https://image.newarea.site/20230725/02.webp)
 
 因为 flex 容器有足够多的空间，所以项目可以很好的填充在容器内部，最终：
 
-![03](http://image.newarea.site/20230725/03.webp)
+![03](https://image.newarea.site/20230725/03.webp)
 
 上面的示例就是当 `flex-basis` 没有被指定，默认值是 `flex-basis: auto`，也就意味着项目以宽度 width(200px) 为准。
 
@@ -65,7 +65,7 @@ content –> width –> flex-basis (limted by max|min-width)
 }
 ```
 
-![04](http://image.newarea.site/20230725/04.webp)
+![04](https://image.newarea.site/20230725/04.webp)
 
 就像你所看到的，当指定一个 `flex-basis` 值的时候，盒子的宽度属性被忽略了，所以我们就不需要指定盒子的宽度 `width` 属性了
 
@@ -77,7 +77,7 @@ content –> width –> flex-basis (limted by max|min-width)
 
 items 完全填充了flex 容器：
 
-![05](http://image.newarea.site/20230725/05.webp)
+![05](https://image.newarea.site/20230725/05.webp)
 
 因此项目的宽度关键在于最终的 `flex-basis`。最佳的方法是只使用 `flex-basis` 而不是 `width` 或 `height` 属性。特别是 Safari 10 之前的版本的浏览器有一个 flexbox bug，在给项目应用 `flex-shrink` 属性的时候，浏览器会使用 `height` 属性而不是 `flex-basis`。
 
@@ -92,11 +92,11 @@ items 完全填充了flex 容器：
 }
 ```
 
-![06](http://image.newarea.site/20230725/06.webp)
+![06](https://image.newarea.site/20230725/06.webp)
 
 可以看到即使我们将 `flex-basis` 设置为 250px，项目的宽度还是被限制在了 100px。所以在这个示例中最终的 `flex-basis` 是100px：
 
-![07](http://image.newarea.site/20230725/07.webp)
+![07](https://image.newarea.site/20230725/07.webp)
 
 接着试试 `min-width` 来看看最终的 `flex-basis` 有什么不同：
 
@@ -107,11 +107,11 @@ items 完全填充了flex 容器：
 }
 ```
 
-![08](http://image.newarea.site/20230725/08.webp)
+![08](https://image.newarea.site/20230725/08.webp)
 
 可以看到最终项目的宽度是 250px 而不是 100px：
 
-![09](http://image.newarea.site/20230725/09.webp)
+![09](https://image.newarea.site/20230725/09.webp)
 
 ## Flex-basis 到底是什么？
 
@@ -123,11 +123,11 @@ items 完全填充了flex 容器：
 
 比方说我们想要放更多的 `flex-basis：200px` 的项目到我们的容器：
 
-![10](http://image.newarea.site/20230725/10.webp)
+![10](https://image.newarea.site/20230725/10.webp)
 
 在项目被放进容器之前，每个项目会占据 200px，所有的项目会占据 1600px。但是容器只有 1000px。当容器没有足够大的空间来存放所有的项目的时候，flex 项目会按照压缩率（shrink rate）被压缩（shrink）其大小来填充容器，这个压缩率就是 `flex-shrink` 来设置的，默认情况下每个项目的压缩率都是一样的：
 
-![11](http://image.newarea.site/20230725/11.webp)
+![11](https://image.newarea.site/20230725/11.webp)
 
 ## 当有额外的空间的时候
 
@@ -139,7 +139,7 @@ items 完全填充了flex 容器：
 }
 ```
 
-![12](http://image.newarea.site/20230725/12.webp)
+![12](https://image.newarea.site/20230725/12.webp)
 
 我们可以控制 flex 项目的增长来填充可用的空间，这也就是 `flex-grow` 属性的作用。默认值为0，意味着项目不会增长。如果将每个项目设置 `flex-grow: 1`，那么所有的项目都会等比例的增长来填充剩余的空间：
 
@@ -150,6 +150,6 @@ items 完全填充了flex 容器：
 }
 ```
 
-![13](http://image.newarea.site/20230725/13.webp)
+![13](https://image.newarea.site/20230725/13.webp)
 
 以上这些设置同样适用于 `height` 属性，当你将 `flex-direction` 设置为 `column` 或者`column-reverse` 的时候。

@@ -1,6 +1,6 @@
 # axios 拦截器
 
-![02](http://image.newarea.site/20230723/02.png)
+![02](https://image.newarea.site/20230723/02.png)
 
 ## 1 拦截请求
 

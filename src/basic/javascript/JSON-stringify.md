@@ -71,7 +71,7 @@ var bar = JSON.stringify(foo, replacer)
 console.log(bar)
 ```
 
-![05](http://image.newarea.site/20230730/05.png)
+![05](https://image.newarea.site/20230730/05.png)
 
 - 初始时，传入 replacer 函数的第一个参数是空字符串，第二个参数是被序列化的对象
 - replacer 函数必须要有返回值，如下是错误的
@@ -86,4 +86,4 @@ console.log(bar)
   var bar = JSON.stringify(foo, replacer)
   console.log(bar)
   ```
-  ![06](http://image.newarea.site/20230730/06.png)
+  ![06](https://image.newarea.site/20230730/06.png)

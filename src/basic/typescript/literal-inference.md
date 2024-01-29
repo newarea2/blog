@@ -2,7 +2,7 @@
 
 当变量初始化一个字面量对象时，对象的类型会被推断出来
 
-![08](http://image.newarea.site/20230713/08.png)
+![08](https://image.newarea.site/20230713/08.png)
 
 解决：
 

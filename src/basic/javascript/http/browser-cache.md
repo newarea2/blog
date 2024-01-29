@@ -14,7 +14,7 @@ https://www.cnblogs.com/echolun/p/9419517.html
 
 https://www.jianshu.com/p/54cc04190252
 
-![03](http://image.newarea.site/20230724/03.png)
+![03](https://image.newarea.site/20230724/03.png)
 
 “之前缓存是否过期”涉及到强制缓存，“文件是否有修改”涉及到协商缓存。
 

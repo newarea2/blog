@@ -7,7 +7,7 @@
 
 [【原版视频】](https://link.juejin.cn/?target=https%3A%2F%2Fwww.vuemastery.com%2Fcourses%2Fvue3-deep-dive-with-evan-you "https://www.vuemastery.com/courses/vue3-deep-dive-with-evan-you")
 
-![image-20201230111207968](http://image.newarea.site/20230525/02.jpg)
+![image-20201230111207968](https://image.newarea.site/20230525/02.jpg)
 
 ⚡️关注公众号【前端大班车】 回复 【mini-vue】索取完整代码
 ==================================
@@ -15,7 +15,7 @@
 一、整体工作流程
 --------
 
-![Kapture 2020-12-10 at 16.13.53.gif](http://image.newarea.site/20230525/04.gif)
+![Kapture 2020-12-10 at 16.13.53.gif](https://image.newarea.site/20230525/04.gif)
 
 1.  编译器将视图模板编译为渲染函数
 2.  数据响应模块将数据对象初始化为响应式数据对象
@@ -27,7 +27,7 @@
 二、三大模块的分工
 ---------
 
-![image.png](http://image.newarea.site/20230525/05.png)
+![image.png](https://image.newarea.site/20230525/05.png)
 
 -   数据响应式模块
 -   编译器
@@ -35,11 +35,11 @@
 
 ### 1\. 数据响应式模块
 
-提供创建一切数据变化都是可以被监听的响应式对象的方法。![Kapture 2020-12-10 at 11.47.59.gif](http://image.newarea.site/20230525/06.gif)
+提供创建一切数据变化都是可以被监听的响应式对象的方法。![Kapture 2020-12-10 at 11.47.59.gif](https://image.newarea.site/20230525/06.gif)
 
 ### 2\. 编译模块
 
-![image.png](http://image.newarea.site/20230525/07.png)
+![image.png](https://image.newarea.site/20230525/07.png)
 
 将html模板编译为渲染函数
 
@@ -50,7 +50,7 @@
 
 ### 3\. 渲染函数
 
-渲染函数通过以下三个周期将视图渲染到页面上![image.png](http://image.newarea.site/20230525/08.png)
+渲染函数通过以下三个周期将视图渲染到页面上![image.png](https://image.newarea.site/20230525/08.png)
 
 -   Render Phase
 -   Mount Phase
@@ -59,7 +59,7 @@
 三、MVVM原型(Mock版)
 ---------------
 
-![MVVM原理](http://image.newarea.site/20230525/09.gif)
+![MVVM原理](https://image.newarea.site/20230525/09.gif)
 
 MVVM框架其实就是在原先的View和Model之间增加了一个VM层完成以下工作。完成数据与视图的监听。我们这一步先写一个Mock版本。其实就是先针对固定的视图和数据模型实现监听。
 
@@ -110,7 +110,7 @@ createApp(App).mount("#app");
 
 程序执行过程大概如图：
 
-![render-proxy](http://image.newarea.site/20230525/10.gif)
+![render-proxy](https://image.newarea.site/20230525/10.gif)
 
 ```js
 const Vue = {
@@ -250,7 +250,7 @@ obj.abc = 132
 
 也就是说如果对象被修改就会得的被响应。
 
-![image-20200713122621925](http://image.newarea.site/20230525/11.jpg)
+![image-20200713122621925](https://image.newarea.site/20230525/11.jpg)
 
 当然我们需要的响应就是重新更新视图也就是重新运行render方法。
 
@@ -374,11 +374,11 @@ document.querySelector('input').addEventListener('keyup', function () {
 
 ### 1\. 什么是Dom 、Document Object Model
 
-![image.png](http://image.newarea.site/20230525/12.png)
+![image.png](https://image.newarea.site/20230525/12.png)
 
 HTML在浏览器中会映射为一些列节点，方便我们去调用。
 
-![image.png](http://image.newarea.site/20230525/13.png)
+![image.png](https://image.newarea.site/20230525/13.png)
 
 ### 2\. 什么是虚拟Dom
 
@@ -386,23 +386,23 @@ Dom中节点众多，直接查询和更新Dom性能较差。
 
 > A way of representing the actual DOM with JavaScript Objects. 用JS对象重新表示实际的Dom
 
-![image.png](http://image.newarea.site/20230525/14.png)
+![image.png](https://image.newarea.site/20230525/14.png)
 
 ### 3\. 什么是渲染函数
 
 在Vue中我们通过将视图模板(template)编译为渲染函数(render function)再转化为虚拟Dom
 
-![image.png](http://image.newarea.site/20230525/15.png)
+![image.png](https://image.newarea.site/20230525/15.png)
 
 ### 4\. 通过DomDiff高效更新视图
 
-![image.png](http://image.newarea.site/20230525/16.png)
+![image.png](https://image.newarea.site/20230525/16.png)
 
 ### 5\. 总结
 
 举个栗子🌰 虚拟Dom和Dom就像大楼和大楼设计图之间的关系。
 
-![image.png](http://image.newarea.site/20230525/17.png)
+![image.png](https://image.newarea.site/20230525/17.png)
 
 假设你要在29层添加一个厨房 ❌ 拆除整个29层，重新建设 ✅先绘制设计图，找出新旧结构不同然后建设
 
@@ -411,7 +411,7 @@ Dom中节点众多，直接查询和更新Dom性能较差。
 
 在Vue中我们通过将视图模板(template)编译为渲染函数(render function)再转化为虚拟Dom
 
-![image.png](http://image.newarea.site/20230525/15.png)
+![image.png](https://image.newarea.site/20230525/15.png)
 
 渲染流程通常会分为三各部分:
 
@@ -524,9 +524,9 @@ function patchProp(el, key, prevValue, nextValue) {
 
 通过DomDiff - 高效更新视图
 
-![image.png](http://image.newarea.site/20230525/16.png)
+![image.png](https://image.newarea.site/20230525/16.png)
 
-![image-20201230104838657](http://image.newarea.site/20230525/19.png)
+![image-20201230104838657](https://image.newarea.site/20230525/19.png)
 
 ```js
 function diff(v1, v2) {
@@ -643,7 +643,7 @@ const compile = (template) => {
 
 细分起来还可以分为三个个小步骤
 
-![Snip20200713_17](http://image.newarea.site/20230525/21.jpg)
+![Snip20200713_17](https://image.newarea.site/20230525/21.jpg)
 
 -   Parse 模板字符串 -> AST(Abstract Syntax Treee)抽象语法树
 
@@ -665,7 +665,7 @@ const compile = (template) => {
 
     [vue-next-template-explorer.netlify.com/](https://link.juejin.cn/?target=https%3A%2F%2Fvue-next-template-explorer.netlify.com%2F "https://vue-next-template-explorer.netlify.com/")
 
-![image-20200713150630150](http://image.newarea.site/20230525/22.jpg)
+![image-20200713150630150](https://image.newarea.site/20230525/22.jpg)
 
 > [编译函数解析](https://juejin.im/post/5d9dbfb4e51d4577f7061978#heading-1 "https://juejin.im/post/5d9dbfb4e51d4577f7061978#heading-1")
 
@@ -743,7 +743,7 @@ const parse = template => ({
 
     -   基础类型解析 v-for 、v-on
 
-        ![image-20200713183256931](http://image.newarea.site/20230525/23.jpg)
+        ![image-20200713183256931](https://image.newarea.site/20230525/23.jpg)
 
 -   compile-dom 针对浏览器的编译逻辑
 
@@ -753,7 +753,7 @@ const parse = template => ({
 
     -   v-clock
 
-        ![image-20200713183210079](http://image.newarea.site/20230525/24.jpg)
+        ![image-20200713183210079](https://image.newarea.site/20230525/24.jpg)
 
 ```js
 const transfer = ast => ({

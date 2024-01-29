@@ -4,7 +4,7 @@
 
 ## 建站基本流程
 
-![](http://image.newarea.site/2024-01-27-23-11-26.png)
+![](https://image.newarea.site/2024-01-27-23-11-26.png)
 
 ### 购买云服务器
 

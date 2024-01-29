@@ -6,7 +6,7 @@
 
 下载 Vue3 的浏览器版本 vue.global.js，新建文件夹 test，结构如下：
 
-![01](http://image.newarea.site/20230715/01.png)
+![01](https://image.newarea.site/20230715/01.png)
 
 index.html
 
@@ -117,7 +117,7 @@ console.log(vNode)
 
 执行 `npm run start`
 
-![02](http://image.newarea.site/20230715/02.png)
+![02](https://image.newarea.site/20230715/02.png)
 
 在浏览器中打开服务器地址，在打开控制台查看结果。对比上面两种方式，这种方式就很理想。零配置，而且还用热更新得功能。项目结构简单，目标明确，不会产生冗余代码。
 

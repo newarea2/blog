@@ -43,11 +43,11 @@ git merge --no-ff release-20190331
 - 测试过程可能会发现“账户管理模块”未达到原型需求或者有bug，此时应在`dev-20190331`分支上修改代码，然后合并到`release-20190331`分支 → 重新构建测试环境 → 再测试验证。直至开发的“账户管理模块”符合原型需求且没有bug，确认没问题后，合并到master分支；
 - 发版master分支；
 
-<!-- ![git流程图](..http://image.newarea.site/gitFlow01.jpg "图1") -->
+<!-- ![git流程图](..https://image.newarea.site/gitFlow01.jpg "图1") -->
 
 
 2 随着项目不断的开发，`dev-*`和`release-*`分支会越来越多，应该定期清理（注意，在删除分支之前应该确保该分支作用已经完成）
 
 3 开发某种特定功能、新需求、优化，分支方向是：
-<!-- ![git流程图](..http://image.newarea.site/gitFlow02.jpg "图2") -->
+<!-- ![git流程图](..https://image.newarea.site/gitFlow02.jpg "图2") -->
 
