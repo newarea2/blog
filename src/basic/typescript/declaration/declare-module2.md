@@ -1,1 +1,1 @@
-![06](http://image.newarea.site/20230714/06.png)
+![06](https://image.newarea.site/20230714/06.png)

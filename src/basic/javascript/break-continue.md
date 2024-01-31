@@ -99,7 +99,7 @@ console.log(text) // 012456789
 
 当 i 为 3 时，执行 continue，然后跳过 `text = text + 1`，接着执行 `i++`，至此本次迭代结束。
 
-![04](http://image.newarea.site/20230730/04.png)
+![04](https://image.newarea.site/20230730/04.png)
 
 ### 2.2 while
 

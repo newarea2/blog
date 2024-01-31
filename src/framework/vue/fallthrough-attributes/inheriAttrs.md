@@ -41,7 +41,7 @@ src/views/table/index.vue
 </script>
 ```
 
-![15](http://image.newarea.site/20230828/15.png)
+![15](https://image.newarea.site/20230828/15.png)
 
 - 和 props 有所不同，透传 attributes 在 JavaScript 中保留了它们原始的大小写
 - 像 `@row-click` 这样的一个 `v-on` 事件监听器将在此对象下被暴露为一个函数 `onRowClick`

@@ -6,12 +6,12 @@
 
 申请获取 Xshell 免费版的下载链接：
 
-![01](http://image.newarea.site/20230807/01.png)
+![01](https://image.newarea.site/20230807/01.png)
 
-![02](http://image.newarea.site/20230807/02.png)
+![02](https://image.newarea.site/20230807/02.png)
 
-![03](http://image.newarea.site/20230807/03.png)
+![03](https://image.newarea.site/20230807/03.png)
 
-![04](http://image.newarea.site/20230807/04.png)
+![04](https://image.newarea.site/20230807/04.png)
 
-![05](http://image.newarea.site/20230807/05.png)
+![05](https://image.newarea.site/20230807/05.png)

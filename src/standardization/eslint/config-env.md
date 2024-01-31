@@ -19,7 +19,7 @@
 }
 ```
 
-![01](http://image.newarea.site/20230718/01.png)
+![01](https://image.newarea.site/20230718/01.png)
 
 如下是两种解决办法。
 
@@ -60,7 +60,7 @@
 
 看环境中有哪些变量呢？ESLint 内部使用了依赖 global，其中定义了每个环境下的全局变量。
 
-![02](http://image.newarea.site/20230718/02.png)
+![02](https://image.newarea.site/20230718/02.png)
 
 ## 另一个例子
 

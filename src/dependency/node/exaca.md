@@ -8,7 +8,7 @@ const execa = require('execa');
 });
 ```
 
-![01](http://image.newarea.site/20230719/15.png)
+![01](https://image.newarea.site/20230719/15.png)
 
 ### API
 

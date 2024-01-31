@@ -128,7 +128,7 @@ tsconfig.json:
 
 ## 添加源文件
 
-![01](http://image.newarea.site/20230713/01.png)
+![01](https://image.newarea.site/20230713/01.png)
 
 - /ts：TypeScript 源码文件存放的文件夹
 
@@ -175,7 +175,7 @@ console.log(demo.sum())
 npx tsc
 ```
 
-![02](http://image.newarea.site/20230713/02.png)
+![02](https://image.newarea.site/20230713/02.png)
 
 ::: code-tabs
 
@@ -212,4 +212,4 @@ console.log(demo.sum());
 
 如果在根目录下执行的命令是`tsc ts/app.ts`，编译后的文件将放在相应源文件同目录下，js 文件夹下将不会有编译产物，也就是说此时并没有使用配置文件
 
-![03](http://image.newarea.site/20230713/03.png)
+![03](https://image.newarea.site/20230713/03.png)

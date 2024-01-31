@@ -31,17 +31,17 @@ index.html
 
 新建一个普通 Npm 项目 lodash-es-study，其中 index.html 内容如下：
 
-![14](http://image.newarea.site/20230424/14.png)
+![14](https://image.newarea.site/20230424/14.png)
 
 预览该页面，发现 Network 下请求了一堆资源：
 
-![18](http://image.newarea.site/20230424/18.png)
+![18](https://image.newarea.site/20230424/18.png)
 
 原来是因为 debounce.js 依赖了其他模块（如 toNumber.js），toNumber.js 也依赖了其他模块（如 isObject.js）...
 
-![16](http://image.newarea.site/20230424/16.png)
+![16](https://image.newarea.site/20230424/16.png)
 
-![17](http://image.newarea.site/20230424/17.png)
+![17](https://image.newarea.site/20230424/17.png)
 
 如果是 Vite 项目，Vite 预构建会递归查找模块所依赖的资源，并将其打包成一个文件（node_modules/.vite/deps/lodash-es.js），从而减少 Http 请求。
 

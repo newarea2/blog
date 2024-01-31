@@ -70,7 +70,7 @@ var blobURL = URL.createObjectURL(blob);
 
 ## 2 Data URL
 
-![02](http://image.newarea.site/20230827/02.png)
+![02](https://image.newarea.site/20230827/02.png)
 
 ```html
 <!DOCTYPE html>
@@ -100,7 +100,7 @@ var blobURL = URL.createObjectURL(blob);
 </html>
 ```
 
-![01](http://image.newarea.site/20230827/01.png)
+![01](https://image.newarea.site/20230827/01.png)
 
 在浏览器地址输入控制台中的Data URL，可以打开打开文件。
 

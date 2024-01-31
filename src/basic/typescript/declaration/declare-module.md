@@ -3,7 +3,7 @@
 
 没有定义实现的声明
 
-![01](http://image.newarea.site/20230714/01.png)
+![01](https://image.newarea.site/20230714/01.png)
 
 ## 1 环境模块 [Ambient Modules](https://www.typescriptlang.org/docs/handbook/modules.html#ambient-modules)
 

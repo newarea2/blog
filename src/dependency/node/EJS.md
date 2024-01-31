@@ -63,7 +63,7 @@ index.ejs
 </body>
 ```
 
-![04](http://image.newarea.site/20230719/04.png)
+![04](https://image.newarea.site/20230719/04.png)
 
 ### 1.3 `<%%`、`%%>`
 
@@ -119,7 +119,7 @@ index.ejs
 </body>
 ```
 
-![01](http://image.newarea.site/20230719/01.png)
+![01](https://image.newarea.site/20230719/01.png)
 
 ### 1.5 `-%>`、`_%>`
 
@@ -150,7 +150,7 @@ index.ejs
 </body>
 ```
 
-![02](http://image.newarea.site/20230719/02.png)
+![02](https://image.newarea.site/20230719/02.png)
 
 index.ejs
 
@@ -163,6 +163,6 @@ index.ejs
 </body>
 ```
 
-![03](http://image.newarea.site/20230719/03.png)
+![03](https://image.newarea.site/20230719/03.png)
 
 备注：打印结果中最后一个 `hello` 前存在空格的原因是模板中最后的 `<%= message %>`前不仅有换行，还有空格，`-%>`只是去掉了换行，空格会被保留
