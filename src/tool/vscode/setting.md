@@ -159,3 +159,23 @@ ctrl+H , 勾选正则表达式，查找`^\s*(?=\r?$)\n`，并全部替换
 ![](https://image.newarea.site/2024-01-04-17-47-09.png)
 
 ![](https://image.newarea.site/2024-01-04-17-49-30.png)
+
+## 禁用目录树的固定滚动
+
+![](https://image.newarea.site/2024-02-19-18-31-24.png)
+
+如果不禁用，就会出现下面这种固定滚动现象：
+
+![](https://image.newarea.site/2024-02-19-17-34-04.png)
+
+## 禁用编辑器固定滚动
+
+在 settings.json 文件中添加以下内容：
+
+```json
+"editor.stickyScroll.enabled": false
+```
+
+或者右键固定区域，取消勾选“Sticky Scroll”
+
+![](https://image.newarea.site/2024-02-19-18-47-54.png)
