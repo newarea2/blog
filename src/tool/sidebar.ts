@@ -92,6 +92,7 @@ const sidebar: SidebarArrayOptions = [
   { text: 'Xshell', link: '/tool/xshell' },
   { text: 'Xftp', link: '/tool/xftp' },
   { text: '加密', link: '/tool/encrypt' },
+  { text: '数字签名与数字证书', link: '/tool/signature' },
 ]
 
 export default sidebar

@@ -37,6 +37,18 @@
 
 原先个人博客网站访问地址是 `http://www.newarea.site`，现在想将其改成 `https://www.newarea.site`，需修改个人博客相关 Nginx 配置。
 
+#### http_ssl_module 模块
+
+查看 Nginx 是否安装 http_ssl_module 模块：
+
+```sh
+./nginx -V
+```
+
+如果输出内容包含 `--with-http_ssl_module`，说明已安装。
+
+#### 修改 Nginx 配置
+
 /www/server/panel/vhost/nginx/blog.conf
 
 修改前：
@@ -89,13 +101,13 @@ server {
 }
 ```
 
-验证配置文件：
+#### 验证配置文件
 
 ```sh
 nginx -t
 ```
 
-重载 Nginx:
+#### 重载 Nginx
 
 ```sh
 nginx -s reload
@@ -103,7 +115,9 @@ nginx -s reload
 
 重载成功，即可使用 `https://www.newarea.site` 进行访问。
 
-注意 http 的默认端口是 80，https 默认端口是 443，访问时可以将默认端口省略。
+## 总结
+
+注意 http 的默认端口是 80，https 默认端口是 443，访问时可以将默认端口省略。记得相关端口要提前开通（**系统防火墙**和**轻量云防火墙**）
 
 可以发现配置文件的改动点主要有3处：
 
@@ -140,3 +154,7 @@ nginx -s reload
       rewrite ^(.*)$ https://$host$1 permanent;
     }
     ```
+
+## 注意
+
+以上步骤只是将个人博客由 HTTP 协议改成了 HTTPS，并没有改造服务器上的其他应用，如果想将服务器上的其他应用，如 WordPress (`http://www.newarea.site:9090/`)也改成 HTTPS 协议，同样需要修改对应的 Nginx 配置。不需要再申请 SSL 证书，因为域名 `www.newarea.site` 的 SSL 证书已经申请过了。

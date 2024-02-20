@@ -6,45 +6,45 @@
 
 如果vscode安装了汉化插件Chinese (Simplified) Language Pack for Visual Studio Code，则settings.json同目录下的locale.json文件也需要复制到新环境相应位置即可。
 
-## 1 关闭预览模式（即打开新的文件会覆盖窗口中的原文件）
+## 关闭预览模式（即打开新的文件会覆盖窗口中的原文件）
 
 `"workbench.editor.enablePreview": false,`
 
-## 2 自动保存
+## 自动保存
 
 `"files.autoSave": "onFocusChange"`
 
-## 3 删除无用空行
+## 删除无用空行
 
 ctrl+H , 勾选正则表达式，查找`^\s*(?=\r?$)\n`，并全部替换
 
-## 4 刚安装好vscode时，默认的是不会自动换行的，当代码写的过长的时候想看比较麻烦，这时设置换行就很方便了，下面是设置换行的详细描述
+## 刚安装好vscode时，默认的是不会自动换行的，当代码写的过长的时候想看比较麻烦，这时设置换行就很方便了，下面是设置换行的详细描述
 
 `"editor.wordWrap": "on"`
 
-## 5 将tab改为两个空格 `"editor.tabSize": 2`和`"editor.detectIndentation": false`
+## 将tab改为两个空格 `"editor.tabSize": 2`和`"editor.detectIndentation": false`
 
 打个比方，你对于 JavaScript 的 tabSize 设置可能是2个空格，但是你打开了一个tabSize为4的文件，那么这个时候editor.detectIndentation会检查到此文件内容以4个空格为缩进，便临时将tabSize设置为4个空格，设置`"editor.detectIndentation": false`后就不会发生这种情况。
 
-## 6 控制编辑器是否在用户键入、粘贴或移动行时自动调整缩进`"editor.autoIndent": false`
+## 控制编辑器是否在用户键入、粘贴或移动行时自动调整缩进`"editor.autoIndent": false`
 
-## 7  取消点击编辑区文件标签时，资源管理器自动定位到该文件
+## 取消点击编辑区文件标签时，资源管理器自动定位到该文件
 
 ![03](https://image.newarea.site/20230805/03.png)
 
 `"explorer.autoReveal": false`
 
-## 8 关闭右侧预览功能（缩略图）
+## 关闭右侧预览功能（缩略图）
 
 ![04](https://image.newarea.site/20230805/04.png)
 
 `"editor.minimap.enabled": false`
 
-## 9 设置文件选项卡过多时换行
+## 设置文件选项卡过多时换行
 
 ![02](https://image.newarea.site/20230805/02.png)
 
-## 11 设置文件选项卡标题
+## 设置文件选项卡标题
 
 ![05](https://image.newarea.site/20230805/05.png)
 
@@ -66,11 +66,11 @@ ctrl+H , 勾选正则表达式，查找`^\s*(?=\r?$)\n`，并全部替换
 
 ![22](https://image.newarea.site/20230805/22.png)
 
-## 10 设置打开文件夹时，在新窗口打开而不是替换上一个活动窗口
+## 设置打开文件夹时，在新窗口打开而不是替换上一个活动窗口
 
 ![01](https://image.newarea.site/20230805/01.png)
 
-## 12 设置代码提示默认选择第一项
+## 设置代码提示默认选择第一项
 
 ![06](https://image.newarea.site/20230805/06.png)
 

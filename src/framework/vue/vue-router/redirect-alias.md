@@ -4,7 +4,6 @@
 
 ## 重定向 redirect
 
-
 **重定**向类似 Nginx 中的代理，访问路由 `/a`，实际上跳转到路由 `/b`。
 
 ```js
@@ -22,7 +21,7 @@ const route = createRouter({
 })
 ```
 
-配置了重定向 `redirect` 就无需配置 `component` 或 `components` 配置，因为重定向记录永远不会到达
+配置了重定向 `redirect` 就无需配置 `component` 或 `components` 配置，因为重定向记录永远不会到达。唯一的例外是嵌套路由：如果一个路由记录有 children 和 redirect 属性，它也应该有 component 属性。
 
 ## 别名 alias
 
