@@ -33,9 +33,17 @@ const sidebar: SidebarArrayOptions = [
       { text: '基础', link: 'basic' },
     ]
   },
+  {
+    text: 'Lodash',
+    collapsible: true,
+    prefix: '/dependency/browser/lodash',
+    children: [
+      { text: '常用函数', link: 'function' },
+      { text: 'lodash 和 lodash-es 区别', link: 'lodash-vs-lodash-es' },
+    ]
+  },
   { text: 'highlightjs', link: '/dependency/browser/highlightjs' },
-  { text: 'Vue Flow', link: '/dependency/browser/vue-flow' },
-  { text: 'Lodash', link: '/dependency/browser/lodash' }
+  { text: 'Vue Flow', link: '/dependency/browser/vue-flow' }
 ]
 
 export default sidebar
