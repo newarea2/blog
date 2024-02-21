@@ -41,7 +41,8 @@ const sidebar: SidebarArrayOptions = [
       { text: '自定义折叠代码区别', link: 'fold-code' },
       { text: '常用插件', link: 'plugin' },
       { text: '常用配置', link: 'setting' },
-      { text: '常用快捷键', link: 'shortcut-key' }
+      { text: '常用快捷键', link: 'shortcut-key' },
+      { text: 'ctrl + shift + f 快捷键冲突', link: 'ctrl- shift-f-conflict' },
     ]
   },
   {
