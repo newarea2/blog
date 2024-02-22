@@ -16,17 +16,16 @@
 
 1.首先，在你的本地项目中添加远程仓库：
 
-  - 打开终端或命令行界面，进入你的项目目录。
-  - 运行命令 `git remote add github <GitHub 仓库 URL>`，将 GitHub 仓库添加为名为 "github" 的远程仓库。
-  - 运行命令 `git remote add gitee <Gitee 仓库 URL>`，将 Gitee 仓库添加为名为 "gitee" 的远程仓库。
+- 打开终端或命令行界面，进入你的项目目录。
+- 运行命令 `git remote add github <GitHub 仓库 URL>`，将 GitHub 仓库添加为名为 "github" 的远程仓库。
+- 运行命令 `git remote add gitee <Gitee 仓库 URL>`，将 Gitee 仓库添加为名为 "gitee" 的远程仓库。
 
 2.推送代码到多个远程仓库：
 
-  - 当你想要将代码推送到多个仓库时，可以运行命令 `git push github <branch-name>` 将代码推送到 GitHub 仓库。
-  - 同样地，运行命令 `git push gitee <branch-name>` 将代码推送到 Gitee 仓库。
-
+- 当你想要将代码推送到多个仓库时，可以运行命令 `git push github <branch-name>` 将代码推送到 GitHub 仓库。
+- 同样地，运行命令 `git push gitee <branch-name>` 将代码推送到 Gitee 仓库。
 
 3.获取多个远程仓库的更新：
 
-  - 运行命令 `git pull github <branch-name>` 获取 GitHub 仓库的更新。
-  - 运行命令 `git pull gitee <branch-name>` 获取 Gitee 仓库的更新。
+- 运行命令 `git pull github <branch-name>` 获取 GitHub 仓库的更新。
+- 运行命令 `git pull gitee <branch-name>` 获取 Gitee 仓库的更新。
