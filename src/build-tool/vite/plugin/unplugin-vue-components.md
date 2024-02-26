@@ -61,7 +61,7 @@ src/App.vue
 </template>
 ```
 
-![13](../images/13.png)
+![](https://image.newarea.site/13.png)
 
 ### part 2
 

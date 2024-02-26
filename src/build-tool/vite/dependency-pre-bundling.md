@@ -29,6 +29,10 @@ index.html
 
 ### 将那些具有许多内部模块的 ESM 依赖项转换为单个模块
 
+下面用一个简单示例来说明
+
+#### 未使用 Vite
+
 新建一个普通 Npm 项目 lodash-es-study，其中 index.html 内容如下：
 
 ![14](https://image.newarea.site/20230424/14.png)
@@ -42,6 +46,51 @@ index.html
 ![16](https://image.newarea.site/20230424/16.png)
 
 ![17](https://image.newarea.site/20230424/17.png)
+
+#### 使用 Vite
+
+- 新建项目 lodash-es-study-vite
+- 添加依赖
+
+  ```sh
+  pnpm install lodash-es
+  pnpm install vite -D
+  ```
+
+- 新建文件 index.html
+
+  ```html
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8" />
+      <link rel="icon" href="/favicon.ico" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+      <script type="module">
+        import debounce from 'lodash-es'
+        console.log(debounce);
+      </script>
+    </body>
+  </html>
+  ```
+
+- 修改 package.json 文件 `script` 项
+  
+  ```json
+  "scripts": {
+    "dev": "vite"
+  }
+  ```
+
+- 执行命令 `npm run dev`
+
+![](https://image.newarea.site/2024-02-21-15-41-48.png)
+
+![](https://image.newarea.site/2024-02-21-15-43-27.png)
+
+![](https://image.newarea.site/2024-02-21-15-45-29.png)
 
 如果是 Vite 项目，Vite 预构建会递归查找模块所依赖的资源，并将其打包成一个文件（node_modules/.vite/deps/lodash-es.js），从而减少 Http 请求。
 
