@@ -65,6 +65,14 @@ const sidebar: SidebarArrayOptions = [
     ]
   },
   {
+    text: 'Mac',
+    collapsible: true,
+    prefix: '/tool/mac',
+    children: [
+      { text: '查看所有文件', link: 'show-all-files' }
+    ]
+  },
+  {
     text: 'Nginx',
     collapsible: true,
     prefix: '/tool/nginx',
