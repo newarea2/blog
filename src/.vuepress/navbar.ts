@@ -6,7 +6,7 @@ export const enNavbar = navbar([
     children: [
       // 路径不要写成了 /framework/vue/watch/index，否则菜单不高亮
       { text: "Vue", activeMatch: '^/framework/vue', link: "/framework/vue/pinia/pinia" },
-      // { text: "React", link: "" },
+      { text: "React", activeMatch: '^/framework/react', link: "/framework/react/ant-design-pro/basic" },
       // { text: "Angular", link: "" },
     ]
   },

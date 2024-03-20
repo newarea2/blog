@@ -1,5 +1,14 @@
 import { SidebarArrayOptions } from "vuepress-theme-hope"
 
-const sidebar: SidebarArrayOptions = []
+const sidebar: SidebarArrayOptions = [
+  {
+    text: 'Ant Design Pro',
+    collapsible: true,
+    prefix: '/framework/react/ant-design-pro',
+    children: [
+      { text: '基础', link: 'basic' },
+    ]
+  },
+]
 
 export default sidebar
