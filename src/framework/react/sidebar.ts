@@ -9,6 +9,14 @@ const sidebar: SidebarArrayOptions = [
       { text: '基础', link: 'basic' },
     ]
   },
+  {
+    text: 'Umi',
+    collapsible: true,
+    prefix: '/framework/react/umi',
+    children: [
+      { text: '插件', link: 'plugin' },
+    ]
+  },
 ]
 
 export default sidebar
