@@ -32,7 +32,7 @@
 
 有时候需要知道哪些端口被占用了，如配置 Nginx，所配置的端口必须为未被使用的端口。
 
-`netstat tunlp`
+`netstat -tunlp`
 
 命令参数：
 
