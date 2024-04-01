@@ -15,6 +15,8 @@ const sidebar: SidebarArrayOptions = [
       { text: 'Linux 系统安装 Git', link: 'install' },
       { text: 'git pull 和 git fetch', link: 'pull-vs-fetch' },
       { text: 'tag', link: 'tag' },
+      { text: '追加新的改动到之前的 commmit', link: 'append-commit' },
+      { text: '忽略已被 Git 管理的文件', link: 'ignore-already-tracked-files' },
     ]
   },
   {
