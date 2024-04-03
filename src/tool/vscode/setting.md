@@ -179,3 +179,9 @@ ctrl+H , 勾选正则表达式，查找`^\s*(?=\r?$)\n`，并全部替换
 或者右键固定区域，取消勾选“Sticky Scroll”
 
 ![](https://image.newarea.site/2024-02-19-18-47-54.png)
+
+## 设置 gitlens commits 列表展示格式
+
+![](https://image.newarea.site/2024-04-03-18-07-23.png)
+
+![](https://image.newarea.site/2024-04-03-18-08-33.png)
