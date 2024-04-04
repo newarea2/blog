@@ -121,7 +121,51 @@ favicons: ['/favicon1.ico']
 
 ## 新增一个页面
 
+新增页面组件（路由组件），pages/ant-design/button/index.tsx
 
+```tsx
+import React from 'react';
+import { Button, Flex } from 'antd';
+
+const AntDesignButton: React.FC = () => {
+  return (
+    <>
+      <Button>Primary</Button>
+
+      <Flex gap="small" wrap="wrap">
+        <Button type="primary">Primary Button</Button>
+        <Button>Default Button</Button>
+        <Button type="dashed">Dashed Button</Button>
+        <Button type="text">Text Button</Button>
+        <Button type="link">Link Button</Button>
+      </Flex>
+    </>
+  )
+}
+
+export default AntDesignButton
+```
+
+修改 config/routes.ts 添加对应路由配置，同时配置菜单
+
+```ts
+export default [
+  // ...
+  {
+    path: '/ant-design',
+    name: 'antDesign',
+    icon: 'antDesign',
+    routes: [
+      {
+        path: 'button',
+        name: 'button',
+        component: './ant-design/button',
+      },
+    ],
+  },
+  // ...
+]
+```
 
 ## 样式解决方案
 
