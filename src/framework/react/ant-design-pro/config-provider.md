@@ -1,4 +1,4 @@
-# 如何设置 Ant Design 的全局话配置
+# 如何设置 Ant Design 的全局配置
 
 通过 Umi 插件 [Antd](https://umijs.org/docs/max/antd) 来设置。
 

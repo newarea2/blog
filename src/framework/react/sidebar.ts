@@ -7,6 +7,7 @@ const sidebar: SidebarArrayOptions = [
     prefix: '/framework/react/ant-design-pro',
     children: [
       { text: '基础', link: 'basic' },
+      { text: '如何设置 Ant Design 的全局配置', link: 'config-provider' },
     ]
   },
   {
