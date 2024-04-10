@@ -20,6 +20,14 @@ const sidebar: SidebarArrayOptions = [
     ]
   },
   {
+    text: 'Windows',
+    collapsible: true,
+    prefix: '/tool/windows',
+    children: [
+      { text: '查看命令位置', link: 'where' },
+    ]
+  },
+  {
     text: 'Github',
     collapsible: true,
     prefix: '/tool/github',
