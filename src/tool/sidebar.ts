@@ -113,6 +113,7 @@ const sidebar: SidebarArrayOptions = [
   { text: '加密', link: '/tool/encrypt' },
   { text: '数字签名与数字证书', link: '/tool/signature' },
   { text: '如何制作 logo 和 favicon', link: '/tool/logo-favicon' },
+  { text: 'Charles', link: '/tool/charles' },
 ]
 
 export default sidebar
