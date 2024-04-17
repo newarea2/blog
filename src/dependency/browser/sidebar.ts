@@ -43,7 +43,8 @@ const sidebar: SidebarArrayOptions = [
     ]
   },
   { text: 'highlightjs', link: '/dependency/browser/highlightjs' },
-  { text: 'Vue Flow', link: '/dependency/browser/vue-flow' }
+  { text: 'Vue Flow', link: '/dependency/browser/vue-flow' },
+  { text: 'Gitalk', link: '/dependency/browser/gitalk' },
 ]
 
 export default sidebar
