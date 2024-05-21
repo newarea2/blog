@@ -17,6 +17,7 @@ const sidebar: SidebarArrayOptions = [
       { text: 'tag', link: 'tag' },
       { text: '追加新的改动到之前的 commmit', link: 'append-commit' },
       { text: '忽略已被 Git 管理的文件', link: 'ignore-already-tracked-files' },
+      { text: '创建空白分支', link: 'empty-branch' },
     ]
   },
   {
