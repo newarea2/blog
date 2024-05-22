@@ -185,3 +185,7 @@ ctrl+H , 勾选正则表达式，查找`^\s*(?=\r?$)\n`，并全部替换
 ![](https://image.newarea.site/2024-04-03-18-07-23.png)
 
 ![](https://image.newarea.site/2024-04-03-18-08-33.png)
+
+## 设置当点击资源管理器中的文件时在新标签页中打开而不是替换当前标签页
+
+![](https://image.newarea.site/2024-05-13-22-54-24.png)
