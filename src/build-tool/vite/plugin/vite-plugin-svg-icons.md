@@ -1,6 +1,6 @@
 # vite-plugin-svg-icons
 
-[github](https://github.com/vbenjs/vite-plugin-svg-icons/blob/main/README.zh_CN.md)
+[vite-plugin-svg-icons](https://github.com/vbenjs/vite-plugin-svg-icons/blob/main/README.zh_CN.md)
 
 用于生成 [svg 雪碧图](https://www.zhangxinxu.com/wordpress/2014/07/introduce-svg-sprite-technology/).
 

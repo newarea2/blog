@@ -1,5 +1,7 @@
 # vite-plugin-style-import
 
+[vite-plugin-style-import](https://github.com/vbenjs/vite-plugin-style-import)
+
 unplugin-vue-components 只会识别模板（`<template></template>`）中出现的组件，不会处理用户在 script 中手动导入的组件，比如 Arco Design Vue 的 Message 组件。
 
 ```html

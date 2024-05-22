@@ -1,5 +1,7 @@
 # unplugin-vue-components
 
+[unplugin-vue-components](https://github.com/unplugin/unplugin-vue-components)
+
 用于识别单文件组件 `<template></template>` 中的组件，包括自己写的组件（如src/components中的组件）和 第三方UI组件库中的组件，自动导入它们，避免写一堆 import 语句。
 
 使用了 unplugin-vue-components 后，下面代码：
