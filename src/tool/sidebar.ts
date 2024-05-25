@@ -41,6 +41,8 @@ const sidebar: SidebarArrayOptions = [
       { text: 'Github Pages', link: 'github-pages' },
       { text: 'ssh', link: 'ssh' },
       { text: '同步家里和公司代码', link: 'sync-home-company-codes' },
+      { text: 'github1s', link: 'github1s' },
+      { text: 'github dev', link: 'github-dev' },
     ]
   },
   {
