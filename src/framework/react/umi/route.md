@@ -93,3 +93,27 @@ export default [
 const Layout = ({ children }) => children;
 export default Layout;
 ```
+
+## 路由、页面变化
+
+```ts
+// src/app.tsx
+
+// https://umijs.org/docs/api/runtime-config#onroutechange
+export const onRouteChange: RuntimeConfig['onRouteChange'] = () => {
+  console.log(5566)
+}
+
+/**
+ * @name ProLayout 运行时布局配置
+ * @doc https://procomponents.ant.design/components/layout#prolayout
+ */
+export const layout: RunTimeLayoutConfig = ({ initialState }) => {
+
+  return {
+    onPageChange() {
+      console.log(33344)
+    },
+  }
+}
+```

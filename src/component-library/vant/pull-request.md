@@ -244,6 +244,7 @@ export default defineComponent({
 
     // 上拉开始时组件自动设置 loading 为 true，操作完成后需要我们手动设置 loading 为 false
     async handleLoad() {
+      this.pagination.pageNum += 1
       await this.fetchData()
 
       this.loading = false
@@ -274,12 +275,11 @@ export default defineComponent({
       const data = res.data
       this.pagination.total = data.total
       this.list = this.list.concat(data.list)
-      this.pagination.pageNum += 1
 
       // 改动点
       if (this.list.length >= this.pagination.total)
         this.finished = true
-      	else this.finished = false
+      else this.finished = false
     },
   },
 })

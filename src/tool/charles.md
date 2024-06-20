@@ -32,4 +32,4 @@ Charles 是一个抓包工具。
 
 ## 2 抓取 localhost 请求
 
-使用 IP 替代 localhost 即可。
+使用 IP 或者 `localhost.charlesproxy.com` 替代 localhost 即可。
