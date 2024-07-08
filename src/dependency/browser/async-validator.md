@@ -99,7 +99,7 @@ const rules = {
 
 - firstFields: 布尔值或者字符串，如果验证一个字段时，一个规则不通过，终止验证下个规则(一个字段，多个规则的情况)
 
-firstFields是针对单个字段多规则的情况下使用，而first是针对所有字段。
+`firstFields` 是针对单个字段多规则的情况下使用，而 `first` 是针对所有字段。
 
 ## 4 关于路径
 
@@ -107,7 +107,7 @@ firstFields是针对单个字段多规则的情况下使用，而first是针对�
 
 提供了校验规则 `rules`、数据源 `source`，async-validator 是如何根据 `rules` 中属性路径去 `source` 查找相应的值。
 
-Deep Rules是处理object或者array类型的，使用了 `fields` 或 `defaultField`。
+Deep Rules 是处理 object 或者 array 类型的，使用了 `fields` 或 `defaultField`。
 
 - fields：Deep Rules 的时候使用，定义下一层的字段名以及规则。
 - defaultField: Deep Rules 的时候使用，所有下一层的字段都会采用该规则，可以被fields替换。

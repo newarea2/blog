@@ -45,6 +45,7 @@ const sidebar: SidebarArrayOptions = [
   { text: 'highlightjs', link: '/dependency/browser/highlightjs' },
   { text: 'Vue Flow', link: '/dependency/browser/vue-flow' },
   { text: 'Gitalk', link: '/dependency/browser/gitalk' },
+  { text: 'Async Validator', link: '/dependency/browser/async-validator' },
 ]
 
 export default sidebar
