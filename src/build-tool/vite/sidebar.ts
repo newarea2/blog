@@ -16,6 +16,7 @@ const sidebar: SidebarArrayOptions = [
       { text: 'vite-plugin-svg-icons', link: 'vite-plugin-svg-icons' },
     ]
   },
+  { text: '通过修改 host 文件来切换接口服务', link: '/build-tool/vite/host' },
 ]
 
 export default sidebar
