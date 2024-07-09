@@ -32,6 +32,12 @@ git reset --hard 731473
 
 ![](https://image.newarea.site/2024-03-04-14-13-03.png)
 
+Reset 更改保留在本地
+
+Soft Reset 更改保留在暂存区
+
+Hard Reset 丢弃更改
+
 回退后：
 
 ![](https://image.newarea.site/2024-03-04-11-49-29.png)
