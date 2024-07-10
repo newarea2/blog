@@ -41,6 +41,30 @@ prefix = "C:\\Users\\zbxtqw\\AppData\\Roaming\\npm"
 - registry：npm 源。
 - userconfig：用于存放用户修改的配置信息，如 `npm config set prefix "D:\nodejs"` 会向 .npmrc 写入 `prefix=D:\nodejs`。
 
+## 配置来源
+
+配置存放[位置](https://docs.npmjs.com/cli/v10/configuring-npm/npmrc)：
+
+- 项目级配置，跟 package.json 文件相邻，如 /path/to/my/project/.npmrc。
+
+- 操作系统用户级配置，如 C:\Users\xxx\.npmrc。
+
+- 全局配置文件，位于 Node 安装目录，如 D:\soft\nvm\v20.10.0\etc\npmrc。
+
+- 内置配置 path/to/npm/itself/npmrc。
+
+![](https://image.newarea.site/2024-07-10-09-56-01.png)
+
+执行 `npm config list --json`，打印：
+
+```json
+{
+  //...
+  "globalconfig": "D:\\soft\\nvm\\v20.10.0\\etc\\npmrc",
+  "userconfig": "C:\\Users\\01422772\\.npmrc",
+}
+```
+
 ## Node 包分类
 
 **内置包**

@@ -4,10 +4,10 @@
 
 `npm i pnpm -g`
 
-一旦你安装了 pnpm，就无需再使用其他软件包管理器进行升级。 你可以使用 pnpm 升级自己，像这样：
+一旦你安装了 pnpm，就无需再使用其他软件包管理器进行升级。 当需要升级 pnpm，像这样：
 
 ```shell
-pnpm add -g pnpm
+npm i pnpm@latest -g
 ```
 
 ## 使用
@@ -41,9 +41,3 @@ pnpm add express
 | `pnpm run <cmd>` | 执行 package.json 中 scripes |
 | `pnpm update` | 根据 package.json 中 依赖的语义化版本范围更新所有依赖 |
 | `pnpm remove <pkg>` | 从 node_modules 和 package.json 中卸载某个依赖 |
-
-命令基本跟 npm 一样。
-
-`pnpm store path` 查看 store 位置
-
-`pnpm config set store-dir /path/to/.pnpm-store` 设置 store 位置
