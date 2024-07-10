@@ -109,6 +109,15 @@ const sidebar: SidebarArrayOptions = [
       { text: 'CDN 内容分发网络', link: 'cdn' },
     ]
   },
+  {
+    text: '谷歌浏览器',
+    collapsible: true,
+    prefix: '/tool/google',
+    children: [
+      { text: '常用快捷键', link: 'shortcut-key' },
+      { text: '使用技巧', link: 'trick' },
+    ]
+  },
   { text: 'CPU', link: '/tool/cpu' },
   { text: 'Photoshop', link: '/tool/photoshop' },
   { text: 'Stackblitz', link: '/tool/stackblitz' },
