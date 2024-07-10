@@ -11,6 +11,7 @@ import css from '../basic/css/sidebar'
 import typescript from '../basic/typescript/sidebar'
 import node from '../basic/node/sidebar'
 import npm from '../basic/npm/sidebar'
+import pnpm from '../basic/pnpm/sidebar'
 
 
 import vite from '../build-tool/vite/sidebar'
@@ -39,6 +40,7 @@ export const enSidebar = sidebar({
   '/basic/typescript/': typescript,
   '/basic/node/': node,
   '/basic/npm/': npm,
+  '/basic/pnpm/': pnpm,
 
   '/build-tool/vite/': vite,
   '/build-tool/rollup/': rollup,

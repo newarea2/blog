@@ -28,6 +28,7 @@ export const enNavbar = navbar([
       // { text: "Tailwind CSS", activeMatch: '^/basic/tailwindCss', link: "/react/bind-this" },
       { text: "Node", activeMatch: '^/basic/node', link: "/basic/node/argv" },
       { text: "Npm", activeMatch: '^/basic/npm', link: "/basic/npm/package/module" },
+      { text: "Pnpm", activeMatch: '^/basic/pnpm', link: "/basic/pnpm/install" },
     ]
   },
   {
