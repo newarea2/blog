@@ -1,5 +1,3 @@
-[nvm](https://github.com/coreybutler/nvm-windows)
-
 ## npm config 命令
 
 `npm help config` 在浏览器打开命令 `npm config` 的介绍页。
@@ -36,10 +34,27 @@ prefix = "C:\\Users\\zbxtqw\\AppData\\Roaming\\npm"
 }
 ```
 
-- prefix：表示全局包（prefix/node_modules）、执行脚本（prefix）存放位置。
-- cache：缓存位置。
-- registry：npm 源。
-- userconfig：用于存放用户修改的配置信息，如 `npm config set prefix "D:\nodejs"` 会向 .npmrc 写入 `prefix=D:\nodejs`。
+### prefix
+
+[prefix Configuration](https://docs.npmjs.com/cli/v10/configuring-npm/folders#prefix-configuration)
+
+[prefix config](https://docs.npmjs.com/cli/v10/using-npm/config#prefix)
+
+表示全局包（prefix/node_modules）、执行脚本（prefix）存放位置。
+
+默认 `C:\Users\xxx\AppData\npm`
+
+### cache
+
+缓存位置。
+
+### registry
+
+npm 源。
+
+### userconfig
+
+用于存放用户修改的配置信息，如 `npm config set prefix "D:\nodejs"` 会向 .npmrc 写入 `prefix=D:\nodejs`。
 
 ## 配置来源
 
@@ -97,7 +112,7 @@ prefix = "C:\\Users\\zbxtqw\\AppData\\Roaming\\npm"
 
 `npm config set prefix "D:\nodejs"`
 
-实际上，该命令会在用户目录下的新建 C:\Users\zbxtqw\.npmrc 文件并写入 `prefix=D:\nodejs`
+实际上，该命令会在用户目录下的新建 `C:\Users\zbxtqw\.npmrc` 文件并写入 `prefix=D:\nodejs`
 
 修改缓存位置
 

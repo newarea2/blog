@@ -16,6 +16,7 @@ const sidebar: SidebarArrayOptions = [
   { text: 'cli 命令行（一）', link: '/basic/npm/cli' },
   { text: 'cli 命令行（二）', link: '/basic/npm/cli01' },
   { text: 'dependencies、devDependencies', link: '/basic/npm/dependencies-vs-devdependencies' },
+  { text: 'nvm', link: '/basic/npm/nvm-windows' },
   { text: '安装（一）', link: '/basic/npm/install' },
   { text: '安装（二）', link: '/basic/npm/install01' },
   { text: '完整性', link: '/basic/npm/integrity' },
