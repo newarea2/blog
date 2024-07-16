@@ -111,3 +111,15 @@ pnpm config set global-bin-dir "E:\pnpm"
 注意确保将修改后的地址添加到环境变量 PATH
 
 ![](https://image.newarea.site/2024-07-10-11-27-20.png)
+
+## 配置写到哪了
+
+执行上面修改命令，改动将写入 `C:\Users\xxx\AppData\Local\pnpm\config\rc`：
+
+```
+cache-dir=E:\pnpm-cache
+state-dir=E:\pnpm-state
+store-dir=E:\pnpm\store
+global-dir=E:\pnpm\global
+global-bin-dir=E:\pnpm
+```
