@@ -75,7 +75,15 @@ const sidebar: SidebarArrayOptions = [
       { text: '防火墙', link: 'firewall' },
       { text: '进程、端口', link: 'process-port' },
       { text: '打包、压缩', link: 'tar-zip' },
-      { text: '环境变量', link: 'env' }
+      {
+        text: '环境变量',
+        collapsible: true,
+        prefix: '/tool/linux/env',
+        children: [
+          { text: '环境变量', link: 'env' },
+          { text: 'source、export', link: 'source-export' },
+        ]
+      }
     ]
   },
   {
