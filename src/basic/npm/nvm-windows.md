@@ -4,7 +4,11 @@
 
 ## 安装
 
+选择 nvm 安装目录。
+
 ![](https://image.newarea.site/2024-07-14-21-14-01.png)
+
+当前使用的 Node.js 软连接，选择跟 nvm 安装同一目录下。
 
 ![](https://image.newarea.site/2024-07-14-21-15-31.png)
 
@@ -36,7 +40,7 @@ nvm use 20.15.1
 
 ![](https://image.newarea.site/2024-07-15-22-31-05.png)
 
-nodejs 是一个软连接，指向 `D:\nvm\v20.15.1`，表示当前的 NodeJs，可用于存放全局可执行脚本（`D:\nodejs`）和依赖包（`D:\nodejs\node_modules`）
+nodejs 是一个软连接，指向 `D:\nvm\v20.15.1`，表示当前的 Node.js，可用于存放全局可执行脚本（`D:\nodejs`）和依赖包（`D:\nodejs\node_modules`）
 
 ![](https://image.newarea.site/2024-07-15-22-32-08.png)
 
